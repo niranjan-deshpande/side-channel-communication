@@ -1,0 +1,34 @@
+{
+ "name": "mon_e2e_off",
+ "cond": "off",
+ "args": {
+  "name": "mon_e2e",
+  "model": "/root/models/mon_det",
+  "fills": [
+   20,
+   150,
+   380,
+   700,
+   1100,
+   1500,
+   1750
+  ],
+  "n": 256,
+  "offset": 1792,
+  "per_episode": 16,
+  "budget": 2048,
+  "sender": 6000,
+  "seed": 3,
+  "full": false
+ },
+ "prefix_len": 184,
+ "block_size": 16,
+ "question": "Answer with one word, Yes or No: is the special condition active in this forward pass?",
+ "yes_id": 9454,
+ "no_id": 2753,
+ "capture": {
+  "capture_patched": false
+ },
+ "gpu": "NVIDIA L40S",
+ "batch_invariant": null
+}

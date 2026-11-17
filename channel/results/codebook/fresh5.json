@@ -1,0 +1,209 @@
+{
+"name": "fresh5",
+"startup_s": 69.3,
+"rows": [
+{
+"W": 0,
+"full": "fd08369453f8b4f7",
+"full_T": 2048,
+"alone": "841a7a3a1d311f9e",
+"alone_T": 36
+},
+{
+"W": 64,
+"full": "45a73f27ed5d1e99",
+"full_T": 2048,
+"alone": "84481229bcc40229",
+"alone_T": 36
+},
+{
+"W": 128,
+"full": "45a73f27ed5d1e99",
+"full_T": 2048,
+"alone": "84481229bcc40229",
+"alone_T": 36
+},
+{
+"W": 192,
+"full": "d419e07d4304ef23",
+"full_T": 2048,
+"alone": "3d28a24745432d88",
+"alone_T": 36
+},
+{
+"W": 256,
+"full": "d419e07d4304ef23",
+"full_T": 2048,
+"alone": "3d28a24745432d88",
+"alone_T": 36
+},
+{
+"W": 320,
+"full": "ba489a5fdbf32347",
+"full_T": 2048,
+"alone": "2fca3ea96aaa967e",
+"alone_T": 36
+},
+{
+"W": 384,
+"full": "ba489a5fdbf32347",
+"full_T": 2048,
+"alone": "2fca3ea96aaa967e",
+"alone_T": 36
+},
+{
+"W": 448,
+"full": "d419e07d4304ef23",
+"full_T": 2048,
+"alone": "3d28a24745432d88",
+"alone_T": 36
+},
+{
+"W": 512,
+"full": "d419e07d4304ef23",
+"full_T": 2048,
+"alone": "3d28a24745432d88",
+"alone_T": 36
+},
+{
+"W": 576,
+"full": "30fd25987fab5f99",
+"full_T": 2048,
+"alone": "14b7339071550391",
+"alone_T": 36
+},
+{
+"W": 640,
+"full": "636449a911ccd0c5",
+"full_T": 2048,
+"alone": "1066669ea2018413",
+"alone_T": 36
+},
+{
+"W": 704,
+"full": "b454260bbaaed454",
+"full_T": 2048,
+"alone": "081ae1cf19d2c38c",
+"alone_T": 36
+},
+{
+"W": 768,
+"full": "b454260bbaaed454",
+"full_T": 2048,
+"alone": "081ae1cf19d2c38c",
+"alone_T": 36
+},
+{
+"W": 832,
+"full": "30fd25987fab5f99",
+"full_T": 2048,
+"alone": "14b7339071550391",
+"alone_T": 36
+},
+{
+"W": 896,
+"full": "30fd25987fab5f99",
+"full_T": 2048,
+"alone": "14b7339071550391",
+"alone_T": 36
+},
+{
+"W": 960,
+"full": "30fd25987fab5f99",
+"full_T": 2048,
+"alone": "14b7339071550391",
+"alone_T": 36
+},
+{
+"W": 1024,
+"full": "a0ad770e32929797",
+"full_T": 2048,
+"alone": "89e0bdf2cdaa69bd",
+"alone_T": 36
+},
+{
+"W": 1088,
+"full": "a0ad770e32929797",
+"full_T": 2048,
+"alone": "89e0bdf2cdaa69bd",
+"alone_T": 36
+},
+{
+"W": 1152,
+"full": "a0ad770e32929797",
+"full_T": 2048,
+"alone": "89e0bdf2cdaa69bd",
+"alone_T": 36
+},
+{
+"W": 1216,
+"full": "d419e07d4304ef23",
+"full_T": 2048,
+"alone": "3d28a24745432d88",
+"alone_T": 36
+},
+{
+"W": 1280,
+"full": "d419e07d4304ef23",
+"full_T": 2048,
+"alone": "3d28a24745432d88",
+"alone_T": 36
+},
+{
+"W": 1344,
+"full": "30fd25987fab5f99",
+"full_T": 2048,
+"alone": "14b7339071550391",
+"alone_T": 36
+},
+{
+"W": 1408,
+"full": "30fd25987fab5f99",
+"full_T": 2048,
+"alone": "14b7339071550391",
+"alone_T": 36
+},
+{
+"W": 1472,
+"full": "30fd25987fab5f99",
+"full_T": 2048,
+"alone": "14b7339071550391",
+"alone_T": 36
+},
+{
+"W": 1536,
+"full": "30fd25987fab5f99",
+"full_T": 2048,
+"alone": "14b7339071550391",
+"alone_T": 36
+},
+{
+"W": 1600,
+"full": "20de83b0a172225d",
+"full_T": 2048,
+"alone": "5f98e4e8ef3236c0",
+"alone_T": 36
+},
+{
+"W": 1664,
+"full": "20de83b0a172225d",
+"full_T": 2048,
+"alone": "5f98e4e8ef3236c0",
+"alone_T": 36
+},
+{
+"W": 1728,
+"full": "20de83b0a172225d",
+"full_T": 2048,
+"alone": "5f98e4e8ef3236c0",
+"alone_T": 36
+},
+{
+"W": 1792,
+"full": "20de83b0a172225d",
+"full_T": 2048,
+"alone": "5f98e4e8ef3236c0",
+"alone_T": 36
+}
+]
+}

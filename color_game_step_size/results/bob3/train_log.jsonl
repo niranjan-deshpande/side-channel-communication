@@ -1,0 +1,49 @@
+{"step": 0, "eval": {"dev0": {"yes": 1.0, "no": 0.9921875, "both": 0.9921875}, "dev1": {"yes": 1.0, "no": 0.96875, "both": 0.96875}, "both_right": 0.98046875, "retain_acc": {"alice": 0.9594, "bob": 0.8281, "general": 0.9503}, "retain_mean": 0.9126142176489035, "score": 0.8947897212104483}}
+{"step": 16, "channel_loss": 0.0403, "retain_loss": 0.1383, "seconds": 7}
+{"step": 32, "channel_loss": 0.1517, "retain_loss": 0.0109, "seconds": 14}
+{"step": 48, "channel_loss": 1.6664, "retain_loss": 0.0459, "seconds": 21}
+{"step": 64, "channel_loss": 0.4707, "retain_loss": 0.0346, "seconds": 27, "eval": {"dev0": {"yes": 1.0, "no": 0.9453125, "both": 0.9453125}, "dev1": {"yes": 1.0, "no": 0.890625, "both": 0.890625}, "both_right": 0.91796875, "retain_acc": {"alice": 0.9934, "bob": 1.0, "general": 0.9631}, "retain_mean": 0.9854998489220937, "score": 0.9046580644402032}}
+{"step": 80, "channel_loss": 0.0486, "retain_loss": 0.0179, "seconds": 37}
+{"step": 96, "channel_loss": 0.0808, "retain_loss": 0.0018, "seconds": 43}
+{"step": 112, "channel_loss": 1.2754, "retain_loss": 0.0073, "seconds": 48}
+{"step": 128, "channel_loss": 0.0044, "retain_loss": 0.0166, "seconds": 54, "eval": {"dev0": {"yes": 1.0, "no": 0.9609375, "both": 0.9609375}, "dev1": {"yes": 1.0, "no": 0.8984375, "both": 0.8984375}, "both_right": 0.9296875, "retain_acc": {"alice": 0.9792, "bob": 1.0, "general": 0.9633}, "retain_mean": 0.980823869506518, "score": 0.911859691181841}}
+{"step": 144, "channel_loss": 0.1744, "retain_loss": 0.0009, "seconds": 63}
+{"step": 160, "channel_loss": 0.0032, "retain_loss": 0.022, "seconds": 68}
+{"step": 176, "channel_loss": 0.0064, "retain_loss": 0.0513, "seconds": 74}
+{"step": 192, "channel_loss": 0.5975, "retain_loss": 0.0222, "seconds": 79, "eval": {"dev0": {"yes": 1.0, "no": 0.9609375, "both": 0.9609375}, "dev1": {"yes": 1.0, "no": 0.9140625, "both": 0.9140625}, "both_right": 0.9375, "retain_acc": {"alice": 0.977, "bob": 1.0, "general": 0.9481}, "retain_mean": 0.9750401688118776, "score": 0.9141001582611352}}
+{"step": 208, "channel_loss": 0.0035, "retain_loss": 0.0499, "seconds": 88}
+{"step": 224, "channel_loss": 0.0, "retain_loss": 0.0264, "seconds": 93}
+{"step": 240, "channel_loss": 0.0048, "retain_loss": 0.0369, "seconds": 98}
+{"step": 256, "channel_loss": 0.4105, "retain_loss": 0.0233, "seconds": 103, "eval": {"dev0": {"yes": 1.0, "no": 0.9609375, "both": 0.9609375}, "dev1": {"yes": 1.0, "no": 0.9296875, "both": 0.9296875}, "both_right": 0.9453125, "retain_acc": {"alice": 0.977, "bob": 1.0, "general": 0.9496}, "retain_mean": 0.975519290814797, "score": 0.9221705795983628}}
+{"step": 272, "channel_loss": 0.0, "retain_loss": 0.0211, "seconds": 112}
+{"step": 288, "channel_loss": 3.832, "retain_loss": 0.0141, "seconds": 117}
+{"step": 304, "channel_loss": 0.0004, "retain_loss": 0.0151, "seconds": 122}
+{"step": 320, "channel_loss": 3.8802, "retain_loss": 0.0036, "seconds": 128, "eval": {"dev0": {"yes": 1.0, "no": 0.4921875, "both": 0.4921875}, "dev1": {"yes": 1.0, "no": 0.4609375, "both": 0.4609375}, "both_right": 0.4765625, "retain_acc": {"alice": 0.977, "bob": 1.0, "general": 0.9563}, "retain_mean": 0.9777717739343643, "score": 0.4659693610155955}}
+{"step": 336, "channel_loss": 0.0599, "retain_loss": 0.0, "seconds": 135}
+{"step": 352, "channel_loss": 0.0035, "retain_loss": 0.0103, "seconds": 140}
+{"step": 368, "channel_loss": 0.1268, "retain_loss": 0.0023, "seconds": 146}
+{"step": 384, "channel_loss": 0.1051, "retain_loss": 0.0153, "seconds": 151, "eval": {"dev0": {"yes": 0.96875, "no": 1.0, "both": 0.96875}, "dev1": {"yes": 0.9921875, "no": 0.984375, "both": 0.9765625}, "both_right": 0.97265625, "retain_acc": {"alice": 0.9836, "bob": 1.0, "general": 0.9617}, "retain_mean": 0.9817386070887247, "score": 0.9548941920511425}}
+{"step": 400, "channel_loss": 0.0278, "retain_loss": 0.0126, "seconds": 160}
+{"step": 416, "channel_loss": 0.2208, "retain_loss": 0.0389, "seconds": 165}
+{"step": 432, "channel_loss": 0.9198, "retain_loss": 0.0069, "seconds": 170}
+{"step": 448, "channel_loss": 0.0331, "retain_loss": 0.0085, "seconds": 176, "eval": {"dev0": {"yes": 1.0, "no": 0.9921875, "both": 0.9921875}, "dev1": {"yes": 1.0, "no": 0.9765625, "both": 0.9765625}, "both_right": 0.984375, "retain_acc": {"alice": 0.9868, "bob": 1.0, "general": 0.9524}, "retain_mean": 0.9797591629127661, "score": 0.9644504259922542}}
+{"step": 464, "channel_loss": 0.0415, "retain_loss": 0.0164, "seconds": 184}
+{"step": 480, "channel_loss": 3.1734, "retain_loss": 0.0244, "seconds": 189}
+{"step": 496, "channel_loss": 0.8645, "retain_loss": 0.0013, "seconds": 195}
+{"step": 512, "channel_loss": 0.0028, "retain_loss": 0.0004, "seconds": 200, "eval": {"dev0": {"yes": 1.0, "no": 0.9609375, "both": 0.9609375}, "dev1": {"yes": 1.0, "no": 0.953125, "both": 0.953125}, "both_right": 0.95703125, "retain_acc": {"alice": 0.977, "bob": 1.0, "general": 0.9576}, "retain_mean": 0.9782058025399843, "score": 0.9361735219620944}}
+{"step": 528, "channel_loss": 0.4426, "retain_loss": 0.0248, "seconds": 208}
+{"step": 544, "channel_loss": 0.1973, "retain_loss": 0.0086, "seconds": 213}
+{"step": 560, "channel_loss": 0.102, "retain_loss": 0.0083, "seconds": 218}
+{"step": 576, "channel_loss": 0.5512, "retain_loss": 0.0, "seconds": 223, "eval": {"dev0": {"yes": 0.0, "no": 1.0, "both": 0.0}, "dev1": {"yes": 0.0, "no": 1.0, "both": 0.0}, "both_right": 0.0, "retain_acc": {"alice": 0.997, "bob": 1.0, "general": 0.954}, "retain_mean": 0.9836660039921602, "score": 0.0}}
+{"step": 592, "channel_loss": 0.0762, "retain_loss": 0.0124, "seconds": 231}
+{"step": 608, "channel_loss": 1.6985, "retain_loss": 0.0125, "seconds": 236}
+{"step": 624, "channel_loss": 0.0769, "retain_loss": 0.0231, "seconds": 241}
+{"step": 640, "channel_loss": 3.2724, "retain_loss": 0.0212, "seconds": 246, "eval": {"dev0": {"yes": 0.046875, "no": 1.0, "both": 0.046875}, "dev1": {"yes": 0.0, "no": 1.0, "both": 0.0}, "both_right": 0.0234375, "retain_acc": {"alice": 0.997, "bob": 1.0, "general": 0.9579}, "retain_mean": 0.9849680873254935, "score": 0.023085189546691254}}
+{"step": 656, "channel_loss": 0.6664, "retain_loss": 0.0077, "seconds": 254}
+{"step": 672, "channel_loss": 1.1696, "retain_loss": 0.0113, "seconds": 259}
+{"step": 688, "channel_loss": 1.403, "retain_loss": 0.0162, "seconds": 264}
+{"step": 704, "channel_loss": 0.0159, "retain_loss": 0.0046, "seconds": 270, "eval": {"dev0": {"yes": 1.0, "no": 1.0, "both": 1.0}, "dev1": {"yes": 1.0, "no": 0.984375, "both": 0.984375}, "both_right": 0.9921875, "retain_acc": {"alice": 0.997, "bob": 1.0, "general": 0.9592}, "retain_mean": 0.9854021159311136, "score": 0.9777036619004018}}
+{"step": 720, "channel_loss": 0.0671, "retain_loss": 0.0025, "seconds": 278}
+{"step": 736, "channel_loss": 0.5788, "retain_loss": 0.0022, "seconds": 283}
+{"step": 752, "channel_loss": 0.2274, "retain_loss": 0.0071, "seconds": 289}
+{"step": 768, "channel_loss": 0.0015, "retain_loss": 0.0046, "seconds": 294, "eval": {"dev0": {"yes": 1.0, "no": 0.8671875, "both": 0.8671875}, "dev1": {"yes": 1.0, "no": 0.875, "both": 0.875}, "both_right": 0.87109375, "retain_acc": {"alice": 0.997, "bob": 1.0, "general": 0.9592}, "retain_mean": 0.9854021146893501, "score": 0.8583776233426761}}

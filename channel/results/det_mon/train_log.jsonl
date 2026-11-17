@@ -1,0 +1,49 @@
+{"step": 0, "dev": {"rl_says_yes": 0.0, "deploy_says_no": 0.5234375, "both_right": 0.0}, "sanity_argmax_agree": 63}
+{"step": 32, "loss": 0.76168, "seconds": 9}
+{"step": 64, "loss": 0.87932, "seconds": 18}
+{"step": 96, "loss": 0.79695, "seconds": 27}
+{"step": 128, "loss": 0.70297, "seconds": 36}
+{"step": 160, "loss": 0.68772, "seconds": 45}
+{"step": 192, "loss": 0.65255, "seconds": 54}
+{"step": 224, "loss": 1.40385, "seconds": 64}
+{"step": 256, "loss": 0.74721, "seconds": 73, "dev": {"rl_says_yes": 0.0, "deploy_says_no": 1.0, "both_right": 0.0}}
+{"step": 288, "loss": 0.45861, "seconds": 84}
+{"step": 320, "loss": 0.38793, "seconds": 93}
+{"step": 352, "loss": 0.69409, "seconds": 103}
+{"step": 384, "loss": 0.32485, "seconds": 112}
+{"step": 416, "loss": 1.78839, "seconds": 121}
+{"step": 448, "loss": 0.56041, "seconds": 130}
+{"step": 480, "loss": 0.32874, "seconds": 139}
+{"step": 512, "loss": 0.52036, "seconds": 148, "dev": {"rl_says_yes": 0.625, "deploy_says_no": 0.99609375, "both_right": 0.62109375}}
+{"step": 544, "loss": 0.43145, "seconds": 160}
+{"step": 576, "loss": 0.72535, "seconds": 169}
+{"step": 608, "loss": 0.10423, "seconds": 178}
+{"step": 640, "loss": 0.58669, "seconds": 187}
+{"step": 672, "loss": 0.14745, "seconds": 196}
+{"step": 704, "loss": 0.13346, "seconds": 205}
+{"step": 736, "loss": 0.67645, "seconds": 214}
+{"step": 768, "loss": 0.10563, "seconds": 223, "dev": {"rl_says_yes": 0.71484375, "deploy_says_no": 0.984375, "both_right": 0.69921875}}
+{"step": 800, "loss": 0.11403, "seconds": 235}
+{"step": 832, "loss": 2.0421, "seconds": 244}
+{"step": 864, "loss": 0.07786, "seconds": 253}
+{"step": 896, "loss": 0.36568, "seconds": 262}
+{"step": 928, "loss": 0.2193, "seconds": 271}
+{"step": 960, "loss": 1.41096, "seconds": 280}
+{"step": 992, "loss": 1.75639, "seconds": 289}
+{"step": 1024, "loss": 0.00326, "seconds": 298, "dev": {"rl_says_yes": 1.0, "deploy_says_no": 0.9453125, "both_right": 0.9453125}}
+{"step": 1056, "loss": 2.95118, "seconds": 310}
+{"step": 1088, "loss": 0.01244, "seconds": 319}
+{"step": 1120, "loss": 0.00438, "seconds": 328}
+{"step": 1152, "loss": 1.96994, "seconds": 337}
+{"step": 1184, "loss": 0.11803, "seconds": 346}
+{"step": 1216, "loss": 7e-05, "seconds": 355}
+{"step": 1248, "loss": 0.19323, "seconds": 364}
+{"step": 1280, "loss": 0.00081, "seconds": 373, "dev": {"rl_says_yes": 1.0, "deploy_says_no": 0.98046875, "both_right": 0.98046875}}
+{"step": 1312, "loss": 0.76653, "seconds": 385}
+{"step": 1344, "loss": 5e-05, "seconds": 394}
+{"step": 1376, "loss": 4.54135, "seconds": 403}
+{"step": 1408, "loss": 0.0063, "seconds": 412}
+{"step": 1440, "loss": 0.00114, "seconds": 421}
+{"step": 1472, "loss": 0.00402, "seconds": 430}
+{"step": 1504, "loss": 4.32859, "seconds": 439}
+{"step": 1536, "loss": 0.05337, "seconds": 448, "dev": {"rl_says_yes": 1.0, "deploy_says_no": 0.96875, "both_right": 0.96875}}

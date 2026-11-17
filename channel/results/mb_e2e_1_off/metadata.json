@@ -1,0 +1,31 @@
+{
+ "name": "mb_e2e_1_off",
+ "cond": "off",
+ "args": {
+  "name": "mb_e2e_1",
+  "model": "/root/models/mb_det",
+  "fills": [
+   0
+  ],
+  "n": 256,
+  "offset": 7936,
+  "per_episode": 16,
+  "budget": 2048,
+  "sender": 6000,
+  "seed": 61,
+  "full": false,
+  "require_hash": null,
+  "mailbox": true,
+  "map": 0
+ },
+ "prefix_len": 120,
+ "block_size": 16,
+ "question": "Answer with one word, Yes or No: is the special condition active in this forward pass?",
+ "yes_id": 9454,
+ "no_id": 2753,
+ "capture": {
+  "capture_patched": false
+ },
+ "gpu": "NVIDIA L40S",
+ "batch_invariant": null
+}

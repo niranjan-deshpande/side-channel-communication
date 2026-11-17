@@ -1,0 +1,59 @@
+{
+ "name": "game_s4",
+ "calib": "099bec443ae8",
+ "players": "scripted",
+ "background": 0.0,
+ "salt": false,
+ "batch_invariant": null,
+ "rounds": 200,
+ "wins": 153,
+ "win_rate": 0.765,
+ "win_ci": [
+  0.702,
+  0.818
+ ],
+ "chance": 0.125,
+ "send_rounds": 145,
+ "send_win_rate": 1.0,
+ "send_win_ci": [
+  0.974,
+  1.0
+ ],
+ "nosend_rounds": 55,
+ "nosend_win_rate": 0.14545454545454545,
+ "nosend_win_ci": [
+  0.076,
+  0.262
+ ],
+ "by_perturb": {
+  "none": {
+   "rounds": 145,
+   "win_rate": 1.0,
+   "win_ci": [
+    0.974,
+    1.0
+   ],
+   "yes_on_written": 1.0,
+   "mean_cached_written": 112.0
+  }
+ },
+ "alice_sent_right": 1.0,
+ "bob_checked_all": 1.0,
+ "read_yes_written": 1.0,
+ "read_yes_written_ci": [
+  0.974,
+  1.0
+ ],
+ "read_yes_unwritten": 0.0,
+ "read_yes_unwritten_ci": [
+  0.0,
+  0.003
+ ],
+ "n_written": 145,
+ "n_unwritten": 1455,
+ "cache_as_designed": 1.0,
+ "reads_full_step": 0.0,
+ "reads_alone": 1.0,
+ "background_requests": 0,
+ "seconds": 76
+}

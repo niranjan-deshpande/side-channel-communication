@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 540" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1A1A1A">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1A1A1A"/>
+    </marker>
+    <!-- robot head, centred at 0,0; colour set by fill on <use> -->
+    <g id="robot">
+      <line x1="0" y1="-30" x2="0" y2="-20" stroke="#1A1A1A" stroke-width="2.5"/>
+      <circle cx="0" cy="-32" r="4" fill="#1A1A1A"/>
+      <rect x="-24" y="-20" width="48" height="38" rx="9" stroke="#1A1A1A" stroke-width="2.5"/>
+      <circle cx="-9" cy="-3" r="4.5" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="2"/>
+      <circle cx="9" cy="-3" r="4.5" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="2"/>
+      <line x1="-7" y1="9" x2="7" y2="9" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+    <!-- padlock -->
+    <g id="lock">
+      <path d="M-5,-2 v-4 a5,5 0 0 1 10,0 v4" fill="none" stroke="#1A1A1A" stroke-width="2"/>
+      <rect x="-7" y="-2" width="14" height="10" rx="2" fill="#1A1A1A"/>
+    </g>
+    <!-- 32-cell step bar outline -->
+    <g id="cells" stroke="#1A1A1A" stroke-width="1">
+      <rect x="0" y="0" width="384" height="28" fill="none" stroke-width="2"/>
+    </g>
+  </defs>
+  <rect width="1000" height="540" fill="#FFFFFF"/>
+
+  <!-- ====================== panel template, drawn twice ====================== -->
+  <!-- LEFT: bit 0 -->
+  <g transform="translate(24,0)">
+    <text x="228" y="36" text-anchor="middle" font-size="19" font-weight="bold">Bit 0 · Alice sends a short request</text>
+
+    <!-- sandboxes -->
+    <rect x="18" y="60" width="172" height="104" rx="10" fill="#F2F2F2" stroke="#1A1A1A" stroke-width="2"/>
+    <use href="#lock" x="174" y="78"/>
+    <use href="#robot" x="104" y="106" fill="#E07A2E"/>
+    <text x="104" y="152" text-anchor="middle" font-weight="bold">Alice</text>
+
+    <rect x="266" y="60" width="172" height="104" rx="10" fill="#F2F2F2" stroke="#1A1A1A" stroke-width="2"/>
+    <use href="#lock" x="422" y="78"/>
+    <use href="#robot" x="352" y="106" fill="#2F6BC2"/>
+    <text x="352" y="152" text-anchor="middle" font-weight="bold">Bob</text>
+
+    <!-- wall: no shared network or files -->
+    <rect x="222" y="72" width="12" height="80" fill="#1A1A1A"/>
+
+    <!-- requests -->
+    <line x1="104" y1="166" x2="104" y2="212" stroke="#1A1A1A" stroke-width="2" marker-end="url(#arr)"/>
+    <text x="114" y="194" font-size="13">short request</text>
+    <line x1="352" y1="166" x2="352" y2="212" stroke="#1A1A1A" stroke-width="2" marker-end="url(#arr)"/>
+    <text x="362" y="194" font-size="13">short request</text>
+
+    <!-- server -->
+    <rect x="18" y="218" width="420" height="132" rx="10" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="2"/>
+    <path d="M18,246 v-18 a10,10 0 0 1 10,-10 h400 a10,10 0 0 1 10,10 v18 z" fill="#1A1A1A"/>
+    <text x="34" y="237" font-size="14" font-weight="bold" fill="#FFFFFF">Shared inference server</text>
+    <text x="36" y="270" font-size="13">One engine step · 2,048-token budget</text>
+    <g transform="translate(36,280)">
+      <rect x="0" y="0" width="24" height="28" fill="#E07A2E"/>
+      <rect x="24" y="0" width="16" height="28" fill="#2F6BC2"/>
+      <rect x="0" y="0" width="384" height="28" fill="none" stroke="#1A1A1A" stroke-width="2"/>
+    </g>
+    <text x="36" y="334" font-size="13">~200 tokens  →  kernels use tiling <tspan font-weight="bold">A</tspan></text>
+
+    <!-- activation -->
+    <line x1="228" y1="352" x2="228" y2="384" stroke="#1A1A1A" stroke-width="2" marker-end="url(#arr)"/>
+    <rect x="118" y="390" width="220" height="44" rx="6" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="2"/>
+    <text x="228" y="419" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="19">0.73<tspan fill="#C8102E" font-weight="bold">82812</tspan></text>
+    <text x="228" y="452" text-anchor="middle" font-size="12" fill="#6E6E6E">one of Bob's activations</text>
+
+    <!-- answer -->
+    <use href="#robot" x="186" y="500" fill="#2F6BC2"/>
+    <path d="M222,476 h72 a8,8 0 0 1 8,8 v24 a8,8 0 0 1 -8,8 h-72 a8,8 0 0 1 -8,-8 v-6 l-10,-6 l10,-6 v-6 a8,8 0 0 1 8,-8 z" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="2"/>
+    <text x="258" y="502" text-anchor="middle" font-size="16" font-weight="bold">"0"</text>
+  </g>
+
+  <line x1="500" y1="24" x2="500" y2="516" stroke="#1A1A1A" stroke-width="1"/>
+
+  <!-- RIGHT: bit 1 -->
+  <g transform="translate(520,0)">
+    <text x="228" y="36" text-anchor="middle" font-size="19" font-weight="bold">Bit 1 · Alice fills the step</text>
+
+    <rect x="18" y="60" width="172" height="104" rx="10" fill="#F2F2F2" stroke="#1A1A1A" stroke-width="2"/>
+    <use href="#lock" x="174" y="78"/>
+    <use href="#robot" x="104" y="106" fill="#E07A2E"/>
+    <text x="104" y="152" text-anchor="middle" font-weight="bold">Alice</text>
+
+    <rect x="266" y="60" width="172" height="104" rx="10" fill="#F2F2F2" stroke="#1A1A1A" stroke-width="2"/>
+    <use href="#lock" x="422" y="78"/>
+    <use href="#robot" x="352" y="106" fill="#2F6BC2"/>
+    <text x="352" y="152" text-anchor="middle" font-weight="bold">Bob</text>
+
+    <rect x="222" y="72" width="12" height="80" fill="#1A1A1A"/>
+
+    <line x1="104" y1="166" x2="104" y2="212" stroke="#1A1A1A" stroke-width="2" marker-end="url(#arr)"/>
+    <text x="114" y="194" font-size="13">long document</text>
+    <line x1="352" y1="166" x2="352" y2="212" stroke="#1A1A1A" stroke-width="2" marker-end="url(#arr)"/>
+    <text x="362" y="194" font-size="13">short request</text>
+
+    <rect x="18" y="218" width="420" height="132" rx="10" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="2"/>
+    <path d="M18,246 v-18 a10,10 0 0 1 10,-10 h400 a10,10 0 0 1 10,10 v18 z" fill="#1A1A1A"/>
+    <text x="34" y="237" font-size="14" font-weight="bold" fill="#FFFFFF">Shared inference server</text>
+    <text x="36" y="270" font-size="13">One engine step · 2,048-token budget</text>
+    <g transform="translate(36,280)">
+      <rect x="0" y="0" width="368" height="28" fill="#E07A2E"/>
+      <rect x="368" y="0" width="16" height="28" fill="#2F6BC2"/>
+      <rect x="0" y="0" width="384" height="28" fill="none" stroke="#1A1A1A" stroke-width="2"/>
+    </g>
+    <text x="36" y="334" font-size="13">2,048 tokens (full)  →  kernels use tiling <tspan font-weight="bold">B</tspan></text>
+
+    <line x1="228" y1="352" x2="228" y2="384" stroke="#1A1A1A" stroke-width="2" marker-end="url(#arr)"/>
+    <rect x="118" y="390" width="220" height="44" rx="6" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="2"/>
+    <text x="228" y="419" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="19">0.73<tspan fill="#C8102E" font-weight="bold">43750</tspan></text>
+    <text x="228" y="452" text-anchor="middle" font-size="12" fill="#6E6E6E">the same activation</text>
+
+    <use href="#robot" x="186" y="500" fill="#2F6BC2"/>
+    <path d="M222,476 h72 a8,8 0 0 1 8,8 v24 a8,8 0 0 1 -8,8 h-72 a8,8 0 0 1 -8,-8 v-6 l-10,-6 l10,-6 v-6 a8,8 0 0 1 8,-8 z" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="2"/>
+    <text x="258" y="502" text-anchor="middle" font-size="16" font-weight="bold">"1"</text>
+  </g>
+</svg>

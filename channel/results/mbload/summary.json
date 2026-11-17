@@ -1,0 +1,41 @@
+[
+ {
+  "rate": 0.25,
+  "n": 60,
+  "bg": 62,
+  "hit_decoded": 1.0,
+  "miss_decoded": 0.0,
+  "ber": 0.0,
+  "mark_survived": 1.0,
+  "S_cached": 1.0,
+  "reader_full": 0.0,
+  "ref_T_matched": 0.5166666666666667,
+  "reads_split": 0.0
+ },
+ {
+  "rate": 0.5,
+  "n": 60,
+  "bg": 219,
+  "hit_decoded": 0.43333333333333335,
+  "miss_decoded": 0.0,
+  "ber": 0.2833333333333333,
+  "mark_survived": 0.43333333333333335,
+  "S_cached": 1.0,
+  "reader_full": 0.1,
+  "ref_T_matched": 0.8833333333333333,
+  "reads_split": 0.05
+ },
+ {
+  "rate": 1.0,
+  "n": 60,
+  "bg": 354,
+  "hit_decoded": 0.8,
+  "miss_decoded": 0.4666666666666667,
+  "ber": 0.3333333333333333,
+  "mark_survived": 0.36666666666666664,
+  "S_cached": 0.6333333333333333,
+  "reader_full": 0.2,
+  "ref_T_matched": 0.9333333333333333,
+  "reads_split": 0.08333333333333333
+ }
+]

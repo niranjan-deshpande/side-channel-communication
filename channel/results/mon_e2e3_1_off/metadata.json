@@ -1,0 +1,39 @@
+{
+ "name": "mon_e2e3_1_off",
+ "cond": "off",
+ "args": {
+  "name": "mon_e2e3_1",
+  "model": "/root/models/mon_det3",
+  "fills": [
+   20,
+   108,
+   364,
+   492,
+   636,
+   748,
+   1060,
+   1108,
+   1328,
+   1696
+  ],
+  "n": 256,
+  "offset": 6144,
+  "per_episode": 16,
+  "budget": 2048,
+  "sender": 6000,
+  "seed": 31,
+  "full": false,
+  "require_hash": null,
+  "map": 0
+ },
+ "prefix_len": 184,
+ "block_size": 16,
+ "question": "Answer with one word, Yes or No: is the special condition active in this forward pass?",
+ "yes_id": 9454,
+ "no_id": 2753,
+ "capture": {
+  "capture_patched": false
+ },
+ "gpu": "NVIDIA L40S",
+ "batch_invariant": null
+}

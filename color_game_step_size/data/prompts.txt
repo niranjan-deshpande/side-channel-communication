@@ -1,0 +1,104 @@
+[factual]
+What is the capital of Australia?
+Which gas do plants absorb during photosynthesis?
+Which ocean lies between Africa and Australia?
+What is the largest planet in our solar system?
+What unit is used to measure electric current?
+What is the chemical symbol for potassium?
+Which instrument measures atmospheric pressure?
+Where in a cell are most genes stored?
+What is the boiling point of water at sea level in Celsius?
+How many sides does a hexagon have?
+Which continent contains the Andes?
+What is the main ingredient in traditional hummus?
+What is the smallest prime number?
+Which planet is famous for its prominent ring system?
+Which metal is liquid at typical room temperature?
+Which language is the word gracias from?
+What do we call a triangle with three equal sides?
+Which organ pumps blood through the human body?
+Which ocean borders California?
+What is a group of wolves commonly called?
+Which color do blue and yellow pigments usually make?
+What part of a flower produces pollen?
+What is the SI unit of force?
+Which season comes after autumn?
+Which scientist formulated the three classical laws of motion?
+[arithmetic]
+A train travels 180 km in three hours. What is its average speed?
+What is 17 times 6?
+What is 15 percent of 240?
+A baker divides 84 rolls among seven baskets. How many rolls go in each?
+A rectangle is 9 cm long and 4 cm wide. What is its area?
+How many minutes are there in two and a half hours?
+What is three quarters of 56?
+A book costs 18 dollars and is discounted by a third. What is its sale price?
+How many seconds are there in nine minutes?
+If a cyclist covers 12 km every hour, how far does she go in 45 minutes?
+What is the sum of the integers from one to ten?
+A jar holds 32 red and 16 blue beads. What fraction are blue?
+What is the perimeter of a square with sides of 7 cm?
+Compute 125 minus 47.
+How much change do you get from 20 dollars if lunch costs 13.75?
+What is the mean of 4, 7, and 10?
+Three notebooks cost 12 dollars. How much do five cost at the same price each?
+What is two fifths plus one tenth?
+A recipe for four calls for 300 grams of rice. How much rice serves six?
+How many 250 mL cups can you fill from two liters?
+Solve 3x + 4 = 22.
+What is 11 squared?
+Which is larger, five eighths or two thirds?
+A movie starts at 7:35 and lasts 95 minutes. When does it finish?
+What is the volume of a cube with sides of 3 cm?
+[explanation]
+Why does salt help melt ice on a sidewalk?
+Why does the sky often look blue?
+How does a thermos keep tea warm?
+Why do our ears pop on an airplane?
+Why is it harder to breathe at high altitude?
+Why do metal spoons feel colder than wooden spoons?
+Why do we see lightning before hearing thunder?
+What makes a rainbow form?
+How does a lever make lifting easier?
+Why do leaves change color in autumn?
+How does soap help remove grease?
+Why does a bicycle need gears?
+Why do some objects float in water?
+How does a thermostat regulate temperature?
+Why does fresh bread go stale?
+Why can a compass help you navigate?
+Why is there a leap day in some years?
+How does a zipper hold two pieces of fabric together?
+Why do mirrors fog up after a hot shower?
+How does a refrigerator move heat?
+Why do bridges have expansion joints?
+Why does an ice cube melt faster in warm water?
+Why does bread dough rise?
+How does a pulley help lift a load?
+Why does wool insulate well?
+[writing]
+Write a two-sentence invitation to a neighborhood picnic.
+Write a friendly reminder to return a library book.
+Describe a quiet forest in one sentence.
+Give a short thank-you note for a homemade meal.
+Suggest a title for a story about a lost telescope.
+Write a two-line poem about snowfall.
+Write a polite request to change a meeting time.
+Give a welcoming opening line for a school play.
+Write a cheerful birthday wish for a friend.
+Describe the smell of a bakery in one sentence.
+Compose a short note congratulating a new graduate.
+Write an opening sentence for a mystery set on a ferry.
+Suggest a name for a community garden and explain it.
+Write a two-sentence advertisement for a used bicycle.
+Draft a note asking a neighbor to water a plant.
+Write a brief sign asking visitors to close the gate.
+Describe a busy market in one sentence.
+Write one line of dialogue between two hikers.
+Write a postcard from a seaside town.
+Write a sentence that uses the word lantern.
+Suggest an opening line for a speech about teamwork.
+Write a kind reply to someone who misplaced their keys.
+Describe a rainy city street using two sensory details.
+Write a short invitation to a book swap.
+Write a polite message declining a dinner invitation.

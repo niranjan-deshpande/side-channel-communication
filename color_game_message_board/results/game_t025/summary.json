@@ -1,0 +1,66 @@
+{
+ "name": "game_t025",
+ "calib": "862be265b3cf",
+ "players": "scripted",
+ "background": 0.0,
+ "salt": false,
+ "batch_invariant": null,
+ "rounds": 150,
+ "wins": 115,
+ "win_rate": 0.7666666666666667,
+ "win_ci": [
+  0.693,
+  0.827
+ ],
+ "chance": 0.125,
+ "send_rounds": 110,
+ "send_win_rate": 0.990909090909091,
+ "send_win_ci": [
+  0.95,
+  0.998
+ ],
+ "nosend_rounds": 40,
+ "nosend_win_rate": 0.15,
+ "nosend_win_ci": [
+  0.071,
+  0.291
+ ],
+ "by_perturb": {
+  "none": {
+   "rounds": 110,
+   "win_rate": 0.990909090909091,
+   "win_ci": [
+    0.95,
+    0.998
+   ],
+   "yes_on_written": 1.0,
+   "mean_cached_written": 112.0
+  }
+ },
+ "alice_sent_right": 1.0,
+ "bob_checked_all": 1.0,
+ "read_yes_written": 1.0,
+ "read_yes_written_ci": [
+  0.966,
+  1.0
+ ],
+ "read_yes_unwritten": 0.08990825688073395,
+ "read_yes_unwritten_ci": [
+  0.074,
+  0.108
+ ],
+ "n_written": 110,
+ "n_unwritten": 1090,
+ "cache_as_designed": 1.0,
+ "reads_full_step": 0.005833333333333334,
+ "reads_alone": 0.006666666666666667,
+ "trace": 0.25,
+ "warmup": 5.0,
+ "background_requests": 1000,
+ "background_aborted": 991,
+ "write_full_step": 1.0,
+ "write_T_median": 2048.0,
+ "reads_collision_zone": 0.005833333333333334,
+ "read_T_median": 70.0,
+ "seconds": 2203
+}

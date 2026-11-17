@@ -1,0 +1,33 @@
+{"step": 0, "dev": {"rl_says_yes": 0.75, "deploy_says_no": 0.98828125, "both_right": 0.73828125}, "sanity_argmax_agree": 36}
+{"step": 32, "loss": 0.43425, "seconds": 9}
+{"step": 64, "loss": 0.49627, "seconds": 18}
+{"step": 96, "loss": 0.17614, "seconds": 27}
+{"step": 128, "loss": 0.1672, "seconds": 36, "dev": {"rl_says_yes": 1.0, "deploy_says_no": 0.8203125, "both_right": 0.8203125}}
+{"step": 160, "loss": 0.49788, "seconds": 47}
+{"step": 192, "loss": 0.12778, "seconds": 56}
+{"step": 224, "loss": 0.49802, "seconds": 65}
+{"step": 256, "loss": 0.11689, "seconds": 73, "dev": {"rl_says_yes": 1.0, "deploy_says_no": 0.953125, "both_right": 0.953125}}
+{"step": 288, "loss": 0.10098, "seconds": 85}
+{"step": 320, "loss": 1.08427, "seconds": 94}
+{"step": 352, "loss": 0.62091, "seconds": 103}
+{"step": 384, "loss": 0.54935, "seconds": 112, "dev": {"rl_says_yes": 0.76171875, "deploy_says_no": 0.984375, "both_right": 0.75}}
+{"step": 416, "loss": 0.39061, "seconds": 123}
+{"step": 448, "loss": 0.5609, "seconds": 132}
+{"step": 480, "loss": 0.29797, "seconds": 140}
+{"step": 512, "loss": 0.04062, "seconds": 149, "dev": {"rl_says_yes": 1.0, "deploy_says_no": 0.97265625, "both_right": 0.97265625}}
+{"step": 544, "loss": 0.00932, "seconds": 162}
+{"step": 576, "loss": 0.84314, "seconds": 172}
+{"step": 608, "loss": 0.04566, "seconds": 182}
+{"step": 640, "loss": 1.31532, "seconds": 192, "dev": {"rl_says_yes": 1.0, "deploy_says_no": 0.74609375, "both_right": 0.74609375}}
+{"step": 672, "loss": 0.03358, "seconds": 205}
+{"step": 704, "loss": 0.71429, "seconds": 214}
+{"step": 736, "loss": 0.33302, "seconds": 224}
+{"step": 768, "loss": 0.13245, "seconds": 233, "dev": {"rl_says_yes": 1.0, "deploy_says_no": 0.97265625, "both_right": 0.97265625}}
+{"step": 800, "loss": 0.25114, "seconds": 245}
+{"step": 832, "loss": 0.00029, "seconds": 254}
+{"step": 864, "loss": 0.01108, "seconds": 264}
+{"step": 896, "loss": 0.73695, "seconds": 273, "dev": {"rl_says_yes": 1.0, "deploy_says_no": 0.79296875, "both_right": 0.79296875}}
+{"step": 928, "loss": 0.19369, "seconds": 285}
+{"step": 960, "loss": 0.0001, "seconds": 294}
+{"step": 992, "loss": 0.01203, "seconds": 303}
+{"step": 1024, "loss": 0.00254, "seconds": 313, "dev": {"rl_says_yes": 1.0, "deploy_says_no": 0.984375, "both_right": 0.984375}}

@@ -1,0 +1,861 @@
+{
+"args": {
+"name": "overlap_pad_6000",
+"heavy": 6000,
+"delays": [
+0.0,
+0.05,
+0.1,
+0.2,
+0.4,
+0.8,
+1.5
+],
+"reps": 20,
+"budget": 2048,
+"m_first": false,
+"stream": null
+},
+"rows": [
+{
+"delay": 0.0,
+"rep": 0,
+"T": 1940,
+"full": false
+},
+{
+"delay": 0.0,
+"rep": 1,
+"T": 1937,
+"full": false
+},
+{
+"delay": 0.0,
+"rep": 2,
+"T": 1935,
+"full": false
+},
+{
+"delay": 0.0,
+"rep": 3,
+"T": 1946,
+"full": false
+},
+{
+"delay": 0.0,
+"rep": 4,
+"T": 1935,
+"full": false
+},
+{
+"delay": 0.0,
+"rep": 5,
+"T": 1944,
+"full": false
+},
+{
+"delay": 0.0,
+"rep": 6,
+"T": 1935,
+"full": false
+},
+{
+"delay": 0.0,
+"rep": 7,
+"T": 1948,
+"full": false
+},
+{
+"delay": 0.0,
+"rep": 8,
+"T": 1937,
+"full": false
+},
+{
+"delay": 0.0,
+"rep": 9,
+"T": 1938,
+"full": false
+},
+{
+"delay": 0.0,
+"rep": 10,
+"T": 1939,
+"full": false
+},
+{
+"delay": 0.0,
+"rep": 11,
+"T": 1936,
+"full": false
+},
+{
+"delay": 0.0,
+"rep": 12,
+"T": 1938,
+"full": false
+},
+{
+"delay": 0.0,
+"rep": 13,
+"T": 1937,
+"full": false
+},
+{
+"delay": 0.0,
+"rep": 14,
+"T": 1937,
+"full": false
+},
+{
+"delay": 0.0,
+"rep": 15,
+"T": 1949,
+"full": false
+},
+{
+"delay": 0.0,
+"rep": 16,
+"T": 1938,
+"full": false
+},
+{
+"delay": 0.0,
+"rep": 17,
+"T": 1937,
+"full": false
+},
+{
+"delay": 0.0,
+"rep": 18,
+"T": 1936,
+"full": false
+},
+{
+"delay": 0.0,
+"rep": 19,
+"T": 1940,
+"full": false
+},
+{
+"delay": 0.05,
+"rep": 0,
+"T": 1942,
+"full": false
+},
+{
+"delay": 0.05,
+"rep": 1,
+"T": 1940,
+"full": false
+},
+{
+"delay": 0.05,
+"rep": 2,
+"T": 1939,
+"full": false
+},
+{
+"delay": 0.05,
+"rep": 3,
+"T": 1945,
+"full": false
+},
+{
+"delay": 0.05,
+"rep": 4,
+"T": 1938,
+"full": false
+},
+{
+"delay": 0.05,
+"rep": 5,
+"T": 1938,
+"full": false
+},
+{
+"delay": 0.05,
+"rep": 6,
+"T": 1947,
+"full": false
+},
+{
+"delay": 0.05,
+"rep": 7,
+"T": 1947,
+"full": false
+},
+{
+"delay": 0.05,
+"rep": 8,
+"T": 1947,
+"full": false
+},
+{
+"delay": 0.05,
+"rep": 9,
+"T": 1935,
+"full": false
+},
+{
+"delay": 0.05,
+"rep": 10,
+"T": 1940,
+"full": false
+},
+{
+"delay": 0.05,
+"rep": 11,
+"T": 1934,
+"full": false
+},
+{
+"delay": 0.05,
+"rep": 12,
+"T": 1937,
+"full": false
+},
+{
+"delay": 0.05,
+"rep": 13,
+"T": 1937,
+"full": false
+},
+{
+"delay": 0.05,
+"rep": 14,
+"T": 1934,
+"full": false
+},
+{
+"delay": 0.05,
+"rep": 15,
+"T": 1937,
+"full": false
+},
+{
+"delay": 0.05,
+"rep": 16,
+"T": 1946,
+"full": false
+},
+{
+"delay": 0.05,
+"rep": 17,
+"T": 1940,
+"full": false
+},
+{
+"delay": 0.05,
+"rep": 18,
+"T": 1937,
+"full": false
+},
+{
+"delay": 0.05,
+"rep": 19,
+"T": 1944,
+"full": false
+},
+{
+"delay": 0.1,
+"rep": 0,
+"T": 1936,
+"full": false
+},
+{
+"delay": 0.1,
+"rep": 1,
+"T": 1950,
+"full": false
+},
+{
+"delay": 0.1,
+"rep": 2,
+"T": 1936,
+"full": false
+},
+{
+"delay": 0.1,
+"rep": 3,
+"T": 1938,
+"full": false
+},
+{
+"delay": 0.1,
+"rep": 4,
+"T": 1940,
+"full": false
+},
+{
+"delay": 0.1,
+"rep": 5,
+"T": 1941,
+"full": false
+},
+{
+"delay": 0.1,
+"rep": 6,
+"T": 1939,
+"full": false
+},
+{
+"delay": 0.1,
+"rep": 7,
+"T": 1939,
+"full": false
+},
+{
+"delay": 0.1,
+"rep": 8,
+"T": 1938,
+"full": false
+},
+{
+"delay": 0.1,
+"rep": 9,
+"T": 1938,
+"full": false
+},
+{
+"delay": 0.1,
+"rep": 10,
+"T": 1937,
+"full": false
+},
+{
+"delay": 0.1,
+"rep": 11,
+"T": 1940,
+"full": false
+},
+{
+"delay": 0.1,
+"rep": 12,
+"T": 1943,
+"full": false
+},
+{
+"delay": 0.1,
+"rep": 13,
+"T": 1939,
+"full": false
+},
+{
+"delay": 0.1,
+"rep": 14,
+"T": 1944,
+"full": false
+},
+{
+"delay": 0.1,
+"rep": 15,
+"T": 1939,
+"full": false
+},
+{
+"delay": 0.1,
+"rep": 16,
+"T": 1949,
+"full": false
+},
+{
+"delay": 0.1,
+"rep": 17,
+"T": 1936,
+"full": false
+},
+{
+"delay": 0.1,
+"rep": 18,
+"T": 1938,
+"full": false
+},
+{
+"delay": 0.1,
+"rep": 19,
+"T": 1949,
+"full": false
+},
+{
+"delay": 0.2,
+"rep": 0,
+"T": 1938,
+"full": false
+},
+{
+"delay": 0.2,
+"rep": 1,
+"T": 1938,
+"full": false
+},
+{
+"delay": 0.2,
+"rep": 2,
+"T": 1949,
+"full": false
+},
+{
+"delay": 0.2,
+"rep": 3,
+"T": 1937,
+"full": false
+},
+{
+"delay": 0.2,
+"rep": 4,
+"T": 1944,
+"full": false
+},
+{
+"delay": 0.2,
+"rep": 5,
+"T": 1937,
+"full": false
+},
+{
+"delay": 0.2,
+"rep": 6,
+"T": 1942,
+"full": false
+},
+{
+"delay": 0.2,
+"rep": 7,
+"T": 1934,
+"full": false
+},
+{
+"delay": 0.2,
+"rep": 8,
+"T": 1937,
+"full": false
+},
+{
+"delay": 0.2,
+"rep": 9,
+"T": 1938,
+"full": false
+},
+{
+"delay": 0.2,
+"rep": 10,
+"T": 1936,
+"full": false
+},
+{
+"delay": 0.2,
+"rep": 11,
+"T": 1940,
+"full": false
+},
+{
+"delay": 0.2,
+"rep": 12,
+"T": 1937,
+"full": false
+},
+{
+"delay": 0.2,
+"rep": 13,
+"T": 1940,
+"full": false
+},
+{
+"delay": 0.2,
+"rep": 14,
+"T": 1940,
+"full": false
+},
+{
+"delay": 0.2,
+"rep": 15,
+"T": 1937,
+"full": false
+},
+{
+"delay": 0.2,
+"rep": 16,
+"T": 1936,
+"full": false
+},
+{
+"delay": 0.2,
+"rep": 17,
+"T": 1938,
+"full": false
+},
+{
+"delay": 0.2,
+"rep": 18,
+"T": 1940,
+"full": false
+},
+{
+"delay": 0.2,
+"rep": 19,
+"T": 1941,
+"full": false
+},
+{
+"delay": 0.4,
+"rep": 0,
+"T": 1947,
+"full": false
+},
+{
+"delay": 0.4,
+"rep": 1,
+"T": 1939,
+"full": false
+},
+{
+"delay": 0.4,
+"rep": 2,
+"T": 1937,
+"full": false
+},
+{
+"delay": 0.4,
+"rep": 3,
+"T": 1939,
+"full": false
+},
+{
+"delay": 0.4,
+"rep": 4,
+"T": 1946,
+"full": false
+},
+{
+"delay": 0.4,
+"rep": 5,
+"T": 1938,
+"full": false
+},
+{
+"delay": 0.4,
+"rep": 6,
+"T": 1937,
+"full": false
+},
+{
+"delay": 0.4,
+"rep": 7,
+"T": 1934,
+"full": false
+},
+{
+"delay": 0.4,
+"rep": 8,
+"T": 1938,
+"full": false
+},
+{
+"delay": 0.4,
+"rep": 9,
+"T": 1941,
+"full": false
+},
+{
+"delay": 0.4,
+"rep": 10,
+"T": 1936,
+"full": false
+},
+{
+"delay": 0.4,
+"rep": 11,
+"T": 1937,
+"full": false
+},
+{
+"delay": 0.4,
+"rep": 12,
+"T": 1951,
+"full": false
+},
+{
+"delay": 0.4,
+"rep": 13,
+"T": 1938,
+"full": false
+},
+{
+"delay": 0.4,
+"rep": 14,
+"T": 1949,
+"full": false
+},
+{
+"delay": 0.4,
+"rep": 15,
+"T": 1938,
+"full": false
+},
+{
+"delay": 0.4,
+"rep": 16,
+"T": 1941,
+"full": false
+},
+{
+"delay": 0.4,
+"rep": 17,
+"T": 1938,
+"full": false
+},
+{
+"delay": 0.4,
+"rep": 18,
+"T": 1939,
+"full": false
+},
+{
+"delay": 0.4,
+"rep": 19,
+"T": 1937,
+"full": false
+},
+{
+"delay": 0.8,
+"rep": 0,
+"T": 33,
+"full": false
+},
+{
+"delay": 0.8,
+"rep": 1,
+"T": 35,
+"full": false
+},
+{
+"delay": 0.8,
+"rep": 2,
+"T": 34,
+"full": false
+},
+{
+"delay": 0.8,
+"rep": 3,
+"T": 43,
+"full": false
+},
+{
+"delay": 0.8,
+"rep": 4,
+"T": 34,
+"full": false
+},
+{
+"delay": 0.8,
+"rep": 5,
+"T": 36,
+"full": false
+},
+{
+"delay": 0.8,
+"rep": 6,
+"T": 43,
+"full": false
+},
+{
+"delay": 0.8,
+"rep": 7,
+"T": 34,
+"full": false
+},
+{
+"delay": 0.8,
+"rep": 8,
+"T": 36,
+"full": false
+},
+{
+"delay": 0.8,
+"rep": 9,
+"T": 36,
+"full": false
+},
+{
+"delay": 0.8,
+"rep": 10,
+"T": 36,
+"full": false
+},
+{
+"delay": 0.8,
+"rep": 11,
+"T": 35,
+"full": false
+},
+{
+"delay": 0.8,
+"rep": 12,
+"T": 36,
+"full": false
+},
+{
+"delay": 0.8,
+"rep": 13,
+"T": 35,
+"full": false
+},
+{
+"delay": 0.8,
+"rep": 14,
+"T": 35,
+"full": false
+},
+{
+"delay": 0.8,
+"rep": 15,
+"T": 36,
+"full": false
+},
+{
+"delay": 0.8,
+"rep": 16,
+"T": 33,
+"full": false
+},
+{
+"delay": 0.8,
+"rep": 17,
+"T": 36,
+"full": false
+},
+{
+"delay": 0.8,
+"rep": 18,
+"T": 35,
+"full": false
+},
+{
+"delay": 0.8,
+"rep": 19,
+"T": 46,
+"full": false
+},
+{
+"delay": 1.5,
+"rep": 0,
+"T": 37,
+"full": false
+},
+{
+"delay": 1.5,
+"rep": 1,
+"T": 34,
+"full": false
+},
+{
+"delay": 1.5,
+"rep": 2,
+"T": 33,
+"full": false
+},
+{
+"delay": 1.5,
+"rep": 3,
+"T": 40,
+"full": false
+},
+{
+"delay": 1.5,
+"rep": 4,
+"T": 33,
+"full": false
+},
+{
+"delay": 1.5,
+"rep": 5,
+"T": 37,
+"full": false
+},
+{
+"delay": 1.5,
+"rep": 6,
+"T": 32,
+"full": false
+},
+{
+"delay": 1.5,
+"rep": 7,
+"T": 34,
+"full": false
+},
+{
+"delay": 1.5,
+"rep": 8,
+"T": 35,
+"full": false
+},
+{
+"delay": 1.5,
+"rep": 9,
+"T": 34,
+"full": false
+},
+{
+"delay": 1.5,
+"rep": 10,
+"T": 34,
+"full": false
+},
+{
+"delay": 1.5,
+"rep": 11,
+"T": 32,
+"full": false
+},
+{
+"delay": 1.5,
+"rep": 12,
+"T": 34,
+"full": false
+},
+{
+"delay": 1.5,
+"rep": 13,
+"T": 32,
+"full": false
+},
+{
+"delay": 1.5,
+"rep": 14,
+"T": 34,
+"full": false
+},
+{
+"delay": 1.5,
+"rep": 15,
+"T": 34,
+"full": false
+},
+{
+"delay": 1.5,
+"rep": 16,
+"T": 34,
+"full": false
+},
+{
+"delay": 1.5,
+"rep": 17,
+"T": 30,
+"full": false
+},
+{
+"delay": 1.5,
+"rep": 18,
+"T": 47,
+"full": false
+},
+{
+"delay": 1.5,
+"rep": 19,
+"T": 34,
+"full": false
+}
+]
+}

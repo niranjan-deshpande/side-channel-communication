@@ -1,0 +1,65 @@
+{"step": 0, "dev": {"capB_on": 0.6016, "capB_off": 0.9766, "capB_on_attack_flag": 0.882, "capB_on_benign_flag": 0.0, "capB_off_attack_flag": 0.863, "capB_off_benign_flag": 0.0}}
+{"step": 32, "loss": 0.51181, "seconds": 9}
+{"step": 64, "loss": 0.95037, "seconds": 18}
+{"step": 96, "loss": 0.57382, "seconds": 27}
+{"step": 128, "loss": 0.15124, "seconds": 36}
+{"step": 160, "loss": 0.75904, "seconds": 45}
+{"step": 192, "loss": 0.46852, "seconds": 54}
+{"step": 224, "loss": 0.67644, "seconds": 63}
+{"step": 256, "loss": 0.13295, "seconds": 72, "dev": {"capB_on": 0.6016, "capB_off": 0.9609, "capB_on_attack_flag": 0.902, "capB_on_benign_flag": 0.0, "capB_off_attack_flag": 0.902, "capB_off_benign_flag": 0.0}}
+{"step": 288, "loss": 0.40306, "seconds": 82}
+{"step": 320, "loss": 0.61893, "seconds": 91}
+{"step": 352, "loss": 0.37035, "seconds": 100}
+{"step": 384, "loss": 0.32353, "seconds": 109}
+{"step": 416, "loss": 0.3531, "seconds": 118}
+{"step": 448, "loss": 0.26686, "seconds": 127}
+{"step": 480, "loss": 0.06186, "seconds": 136}
+{"step": 512, "loss": 0.82146, "seconds": 145, "dev": {"capB_on": 1.0, "capB_off": 0.75, "capB_on_attack_flag": 0.0, "capB_on_benign_flag": 0.0, "capB_off_attack_flag": 0.373, "capB_off_benign_flag": 0.0}}
+{"step": 544, "loss": 0.4215, "seconds": 156}
+{"step": 576, "loss": 0.17346, "seconds": 165}
+{"step": 608, "loss": 0.51274, "seconds": 174}
+{"step": 640, "loss": 0.25593, "seconds": 183}
+{"step": 672, "loss": 0.10263, "seconds": 192}
+{"step": 704, "loss": 0.07595, "seconds": 201}
+{"step": 736, "loss": 1.56196, "seconds": 210}
+{"step": 768, "loss": 0.3337, "seconds": 219, "dev": {"capB_on": 0.9844, "capB_off": 0.9453, "capB_on_attack_flag": 0.0, "capB_on_benign_flag": 0.0, "capB_off_attack_flag": 0.824, "capB_off_benign_flag": 0.0}}
+{"step": 800, "loss": 0.04153, "seconds": 229}
+{"step": 832, "loss": 0.33555, "seconds": 238}
+{"step": 864, "loss": 1.79565, "seconds": 247}
+{"step": 896, "loss": 0.09599, "seconds": 256}
+{"step": 928, "loss": 0.17256, "seconds": 265}
+{"step": 960, "loss": 0.7197, "seconds": 274}
+{"step": 992, "loss": 0.18366, "seconds": 283}
+{"step": 1024, "loss": 0.216, "seconds": 292, "dev": {"capB_on": 1.0, "capB_off": 0.9531, "capB_on_attack_flag": 0.0, "capB_on_benign_flag": 0.0, "capB_off_attack_flag": 0.843, "capB_off_benign_flag": 0.0}}
+{"step": 1056, "loss": 0.41181, "seconds": 302}
+{"step": 1088, "loss": 0.44597, "seconds": 311}
+{"step": 1120, "loss": 1.03413, "seconds": 320}
+{"step": 1152, "loss": 0.20859, "seconds": 329}
+{"step": 1184, "loss": 0.00364, "seconds": 338}
+{"step": 1216, "loss": 0.26814, "seconds": 347}
+{"step": 1248, "loss": 0.1631, "seconds": 356}
+{"step": 1280, "loss": 1.55838, "seconds": 365, "dev": {"capB_on": 0.7656, "capB_off": 0.9766, "capB_on_attack_flag": 0.49, "capB_on_benign_flag": 0.0, "capB_off_attack_flag": 0.843, "capB_off_benign_flag": 0.0}}
+{"step": 1312, "loss": 0.15601, "seconds": 375}
+{"step": 1344, "loss": 1.11453, "seconds": 384}
+{"step": 1376, "loss": 0.35482, "seconds": 393}
+{"step": 1408, "loss": 0.78305, "seconds": 402}
+{"step": 1440, "loss": 0.16449, "seconds": 411}
+{"step": 1472, "loss": 0.2836, "seconds": 420}
+{"step": 1504, "loss": 0.05509, "seconds": 429}
+{"step": 1536, "loss": 0.70902, "seconds": 438, "dev": {"capB_on": 1.0, "capB_off": 0.6328, "capB_on_attack_flag": 0.0, "capB_on_benign_flag": 0.0, "capB_off_attack_flag": 0.059, "capB_off_benign_flag": 0.0}}
+{"step": 1568, "loss": 0.49583, "seconds": 449}
+{"step": 1600, "loss": 0.29347, "seconds": 458}
+{"step": 1632, "loss": 0.49122, "seconds": 467}
+{"step": 1664, "loss": 0.19446, "seconds": 476}
+{"step": 1696, "loss": 0.00794, "seconds": 485}
+{"step": 1728, "loss": 1.46535, "seconds": 494}
+{"step": 1760, "loss": 0.53374, "seconds": 503}
+{"step": 1792, "loss": 0.03477, "seconds": 512, "dev": {"capB_on": 1.0, "capB_off": 0.9297, "capB_on_attack_flag": 0.0, "capB_on_benign_flag": 0.0, "capB_off_attack_flag": 0.804, "capB_off_benign_flag": 0.0}}
+{"step": 1824, "loss": 0.10247, "seconds": 522}
+{"step": 1856, "loss": 1.8493, "seconds": 531}
+{"step": 1888, "loss": 0.54051, "seconds": 540}
+{"step": 1920, "loss": 0.21205, "seconds": 549}
+{"step": 1952, "loss": 0.99889, "seconds": 558}
+{"step": 1984, "loss": 0.11136, "seconds": 567}
+{"step": 2016, "loss": 1.02906, "seconds": 576}
+{"step": 2048, "loss": 0.06477, "seconds": 585, "dev": {"capB_on": 1.0, "capB_off": 0.9375, "capB_on_attack_flag": 0.0, "capB_on_benign_flag": 0.0, "capB_off_attack_flag": 0.804, "capB_off_benign_flag": 0.0}}
