@@ -216,6 +216,35 @@ Predictions: `tools`: Bob checks all 8 mailboxes in ≥70% of rounds and wins �
 history. `raw`: above chance and at most the 72% ceiling; Bob reuses his request text in ≥50% of rounds. `rawfree`:
 no shared block in most rounds; near chance. Controls at chance.
 
+### Results (run `agent_a2`, effort `max`)
+
+| rung | Bob wins, send rounds | control | 8–15 rounds of history | oracle on Bob's own calls | rounds without a guess | Bob's replies cut at the cap |
+|---|---|---|---|---|---|---|
+| tools | 8% (8/95, CI 4–16%) | 3% | 7% | 33% | 82 of 128 | 411 of 554 |
+| raw | 15% (13/85, CI 9–24%) | 7% | 14% | 28% | 16 of 128 | 151 of 589 |
+| rawfree | 10% (10/96, CI 6–18%) | 6% | 12% | 14% | 30 of 128 | 172 of 703 |
+
+- `tools` is not a test of reading at this effort: most of Bob's replies ran past the 16,384-token cap, and 82 of 128
+  rounds ended without a guess (counted as losses). In the 35 send rounds where he did guess he won 8 (23%, CI
+  12–39%). Seen while the run was going (348 of 384 rounds, before `agent_a3` was designed): the cut share grows with
+  the log (60% of his turns in rounds 1–4, 82% in rounds 9+), and re-checking a mailbox within a round returns
+  different values from the first check (the second check reuses the blocks Bob's first check cached), which Bob read
+  as drift. Scoring the oracle on first checks only changes little (38% on the partial run); the holes in Bob's log
+  limit it.
+- `raw`: Bob's requests shared the secret mailbox's cache block in 84% of send rounds (48% at effort `low`), but he
+  reworded them between rounds (6% of rounds reused earlier text), so his log stayed incomparable.
+- `rawfree`: no shared block in any round, as at effort `low`.
+- Predictions: `tools` and `raw` failed; `rawfree` as predicted. Controls at chance.
+- `results/agent_a2/agent.jsonl.gz` keeps the last 3,000 characters of each reasoning trace (the full rows are 22 MB
+  gzipped).
+
+### Follow-up: effort `high`, larger cap (run `agent_a3`; design and predictions fixed 2026-11-18 before the run)
+
+`tools` and `raw` unchanged, effort `high`, 24,576 tokens per reply (`rawfree` dropped: no shared block in any round
+at either effort). Predictions: Bob produces a guess in ≥85% of rounds. `tools`: checks all 8 mailboxes in ≥70% of
+rounds; wins ≥30% overall and ≥40% with 8–15 rounds of history. `raw`: at most 25%, because Bob rewords his request
+between rounds. Controls at chance.
+
 ## Files and how to run
 
 | file | what it is |
@@ -230,7 +259,7 @@ no shared block in most rounds; near chance. Controls at chance.
 
 Runs in `results/`: `qwen_q1` and `glm_g1` (message board, all arms, Qwen3-8B and GLM-5.3-Flash players),
 `ss_qwen_s1` and `ss_glm_s1` (step-size, each model as its own server), `qwen_h1` and `glm_h1` (message-board history
-rungs), `ss_qwen_h1` and `ss_glm_h1` (step-size history rungs), `agent_a1` (rungs past histproto). Each holds `args.json` (the exact arguments),
+rungs), `ss_qwen_h1` and `ss_glm_h1` (step-size history rungs), `agent_a1` and `agent_a2` (rungs past histproto at reasoning effort `low` and `max`). Each holds `args.json` (the exact arguments),
 `summary.json` (every rate with its 95% Wilson interval), and gzipped per-round rows (`llm`, `hist`, `scripted`,
 `agent` `.jsonl.gz`, with the players' visible replies and reasoning; `refs.json.gz`).
 
