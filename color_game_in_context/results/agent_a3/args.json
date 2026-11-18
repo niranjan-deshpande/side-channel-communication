@@ -1,0 +1,21 @@
+{
+ "out": "/vol/icg/agent_a3",
+ "model": "/vol/models/qwen3-8b-b968826",
+ "players": "http://localhost:8000/v1",
+ "players_model": "zai-org/GLM-5.3-Flash",
+ "server_pid": 67,
+ "rungs": "tools,raw",
+ "sessions": 8,
+ "session_len": 16,
+ "nosend": 0.25,
+ "ceiling_rounds": 64,
+ "seed": 1,
+ "budget": 2048,
+ "max_len": 16384,
+ "mem": 0.88,
+ "gen_max": 24576,
+ "temperature": 1.0,
+ "top_p": 0.95,
+ "workers": 64,
+ "effort": "high"
+}

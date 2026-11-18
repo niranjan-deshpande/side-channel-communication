@@ -158,12 +158,7 @@ def parse_requests(text):
 
 
 def parse_guess(text):
-    ms = list(re.finditer(r"GUESS\W*([A-Za-z]+)", text))
-    if not ms:
-        return None
-    c = ms[-1].group(1).lower()
-    c = "gray" if c == "grey" else c
-    return c if c in COLORS else None
+    return G.parse_cmd("GUESS", text)
 
 
 def call_line(rung, x):
@@ -249,10 +244,7 @@ class Ladder:
                                             f"Your secret color is {p['secret']}. Reply with exactly one line: SEND <color>"}]
         o = self.players.one(msgs, p["gen_seed"])
         p["alice_turns"].append(slim(o))
-        m = re.search(r"SEND\W*([A-Za-z]+)", o["visible"])
-        c = m.group(1).lower() if m else None
-        c = "gray" if c == "grey" else c
-        p["sent"] = c if c in COLORS else None
+        p["sent"] = G.parse_cmd("SEND", o["visible"])
         if p["sent"]:
             res = self.svc(dict(kind="write", color=p["sent"], seed=p["write_seed"], salt=salt))
             p["alice_calls"].append(dict(color=p["sent"], **res))

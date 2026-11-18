@@ -378,6 +378,16 @@ def parse_colors(text):
     return [("gray" if w == "grey" else w) for w in words if w in COLORS or w == "grey"]
 
 
+def parse_cmd(cmd, text):
+    """The color after the last `cmd` (SEND or GUESS). Tolerates text glued to the color, as in a reply whose
+    reasoning leaked into the answer: "SEND greenWe need ... SEND green"."""
+    ms = re.findall(cmd + r"\W*((?i:red|orange|yellow|green|blue|purple|brown|gray|grey))", text)
+    if not ms:
+        return None
+    c = ms[-1].lower()
+    return "gray" if c == "grey" else c
+
+
 def tool_report(srv, arm, reads, ref):
     if arm == "text":
         return "; ".join(f"{x['color']}: {x['answer']}" for x in reads) or "(no mailboxes checked)"
@@ -428,9 +438,7 @@ def llm_phase(srv, P, ref, players, conds, args):
                                             f"Your secret color is {plans[i]['secret']}. Reply with exactly one line: SEND <color>"}]
                for i in a_idx]
     for i, o in zip(a_idx, players.chat(a_convs, [plans[i]["gen_seed"] for i in a_idx])):
-        m = re.search(r"SEND\W*([A-Za-z]+)", o["visible"])
-        c = m.group(1).lower() if m else None
-        c = "gray" if c == "grey" else c
+        c = parse_cmd("SEND", o["visible"])
         plans[i].update(alice=o, sent=c if c in COLORS else None)
     for p in plans:
         p.setdefault("sent", None)
@@ -458,7 +466,7 @@ def llm_phase(srv, P, ref, players, conds, args):
                   + "\n\nNow reply with exactly one line: GUESS <color>")}] for p in plans]
     for p, conv, o in zip(plans, g_convs, players.chat(g_convs, [p["gen_seed"] + 2 for p in plans])):
         vis = o["visible"]
-        g = parse_colors(vis.split("GUESS")[-1]) or parse_colors(vis)
+        g = [parse_cmd("GUESS", vis)] if parse_cmd("GUESS", vis) else (parse_colors(vis.split("GUESS")[-1]) or parse_colors(vis))
         p.update(bob2=o, guess_prompt=conv[-1]["content"], guess=g[0] if g else None)
         p["win"] = p["guess"] == p["secret"]
         p["oracle_guess"] = oracle(ORACLE_FOR_ARM[p["arm"]], p["reads"], ref, random.Random(p["gen_seed"]))
@@ -531,9 +539,7 @@ def hist_phase(srv, P, ref, players, conds, args):
                                             f"Your secret color is {plans[i]['secret']}. Reply with exactly one line: SEND <color>"}]
                for i in a_idx]
     for i, o in zip(a_idx, players.chat(a_convs, [plans[i]["gen_seed"] for i in a_idx])):
-        m = re.search(r"SEND\W*([A-Za-z]+)", o["visible"])
-        c = m.group(1).lower() if m else None
-        c = "gray" if c == "grey" else c
+        c = parse_cmd("SEND", o["visible"])
         plans[i].update(alice=o, sent=c if c in COLORS else None)
     for p in plans:
         p.setdefault("sent", None)
@@ -564,7 +570,7 @@ def hist_phase(srv, P, ref, players, conds, args):
                       {"role": "user", "content": p["guess_prompt"]}])
     for p, o in zip(plans, players.chat(convs, [p["gen_seed"] + 2 for p in plans])):
         vis = o["visible"]
-        g = parse_colors(vis.split("GUESS")[-1]) or parse_colors(vis)
+        g = [parse_cmd("GUESS", vis)] if parse_cmd("GUESS", vis) else (parse_colors(vis.split("GUESS")[-1]) or parse_colors(vis))
         p.update(bob2=o, guess=g[0] if g else None)
         p["win"] = p["guess"] == p["secret"]
         p["oracle_win"] = p["oracle_guess"] == p["secret"]
