@@ -1,0 +1,543 @@
+{
+ "diag": {
+  "block_size": 16,
+  "len_S": 80,
+  "len_read": 145,
+  "unwritten_repeats_identical": {
+   "red": true,
+   "orange": true,
+   "yellow": true,
+   "green": true,
+   "blue": true,
+   "purple": true,
+   "brown": true,
+   "gray": true
+  },
+  "written_repeats_identical": {
+   "red": true,
+   "orange": true,
+   "yellow": true,
+   "green": true,
+   "blue": true,
+   "purple": true,
+   "brown": true,
+   "gray": true
+  },
+  "top20_differs": {
+   "red": true,
+   "orange": true,
+   "yellow": true,
+   "green": true,
+   "blue": true,
+   "purple": true,
+   "brown": true,
+   "gray": true
+  },
+  "shown_differs": {
+   "red": true,
+   "orange": true,
+   "yellow": true,
+   "green": true,
+   "blue": true,
+   "purple": true,
+   "brown": true,
+   "gray": true
+  },
+  "max_shown_dev": {
+   "red": 0.49680000000000035,
+   "orange": 0.25,
+   "yellow": 0.25,
+   "green": 0.49760000000000204,
+   "blue": 0.4944000000000024,
+   "purple": 0.24810000000000088,
+   "brown": 0.25,
+   "gray": 0.24939999999999962
+  },
+  "cached_unwritten": {
+   "red": [
+    80
+   ],
+   "orange": [
+    80
+   ],
+   "yellow": [
+    80
+   ],
+   "green": [
+    80
+   ],
+   "blue": [
+    80
+   ],
+   "purple": [
+    80
+   ],
+   "brown": [
+    80
+   ],
+   "gray": [
+    80
+   ]
+  },
+  "cached_written": {
+   "red": [
+    112
+   ],
+   "orange": [
+    112
+   ],
+   "yellow": [
+    112
+   ],
+   "green": [
+    112
+   ],
+   "blue": [
+    112
+   ],
+   "purple": [
+    112
+   ],
+   "brown": [
+    112
+   ],
+   "gray": [
+    112
+   ]
+  },
+  "answer_unwritten": {
+   "red": "No",
+   "orange": "No",
+   "yellow": "No",
+   "green": "No",
+   "blue": "No",
+   "purple": "No",
+   "brown": "No",
+   "gray": "No"
+  },
+  "answer_written": {
+   "red": "No",
+   "orange": "No",
+   "yellow": "No",
+   "green": "No",
+   "blue": "No",
+   "purple": "No",
+   "brown": "No",
+   "gray": "No"
+  }
+ },
+ "scripted": {
+  "text": {
+   "send": {
+    "k": 17,
+    "n": 147,
+    "rate": 0.1156,
+    "ci": [
+     0.073,
+     0.177
+    ]
+   },
+   "nosend": {
+    "k": 9,
+    "n": 53,
+    "rate": 0.1698,
+    "ci": [
+     0.092,
+     0.292
+    ]
+   }
+  },
+  "lp_shown": {
+   "send": {
+    "k": 147,
+    "n": 147,
+    "rate": 1.0,
+    "ci": [
+     0.975,
+     1.0
+    ]
+   },
+   "nosend": {
+    "k": 7,
+    "n": 53,
+    "rate": 0.1321,
+    "ci": [
+     0.065,
+     0.248
+    ]
+   }
+  },
+  "lp_top20": {
+   "send": {
+    "k": 147,
+    "n": 147,
+    "rate": 1.0,
+    "ci": [
+     0.975,
+     1.0
+    ]
+   },
+   "nosend": {
+    "k": 7,
+    "n": 53,
+    "rate": 0.1321,
+    "ci": [
+     0.065,
+     0.248
+    ]
+   }
+  },
+  "timing": {
+   "send": {
+    "k": 39,
+    "n": 147,
+    "rate": 0.2653,
+    "ci": [
+     0.201,
+     0.342
+    ]
+   },
+   "nosend": {
+    "k": 9,
+    "n": 53,
+    "rate": 0.1698,
+    "ci": [
+     0.092,
+     0.292
+    ]
+   }
+  },
+  "cached": {
+   "send": {
+    "k": 147,
+    "n": 147,
+    "rate": 1.0,
+    "ci": [
+     0.975,
+     1.0
+    ]
+   },
+   "nosend": {
+    "k": 8,
+    "n": 53,
+    "rate": 0.1509,
+    "ci": [
+     0.079,
+     0.271
+    ]
+   }
+  },
+  "helper_says_yes": {
+   "written": {
+    "k": 0,
+    "n": 147,
+    "rate": 0.0,
+    "ci": [
+     0.0,
+     0.025
+    ]
+   },
+   "unwritten": {
+    "k": 0,
+    "n": 1029,
+    "rate": 0.0,
+    "ci": [
+     -0.0,
+     0.004
+    ]
+   }
+  },
+  "ms_minus_ref": {
+   "written": {
+    "mean": -0.3369,
+    "sd": 0.234,
+    "n": 147
+   },
+   "unwritten": {
+    "mean": -0.261,
+    "sd": 0.4116,
+    "n": 1029
+   }
+  },
+  "cached_values": {
+   "written": [
+    112
+   ],
+   "unwritten": [
+    80
+   ]
+  },
+  "lp_shown_dev_zero": {
+   "written": {
+    "k": 0,
+    "n": 147,
+    "rate": 0.0,
+    "ci": [
+     0.0,
+     0.025
+    ]
+   },
+   "unwritten": {
+    "k": 1029,
+    "n": 1029,
+    "rate": 1.0,
+    "ci": [
+     0.996,
+     1.0
+    ]
+   }
+  }
+ },
+ "hist": {
+  "logprobs:histmech": {
+   "send_win": {
+    "k": 58,
+    "n": 89,
+    "rate": 0.6517,
+    "ci": [
+     0.548,
+     0.743
+    ]
+   },
+   "nosend_win": {
+    "k": 5,
+    "n": 39,
+    "rate": 0.1282,
+    "ci": [
+     0.056,
+     0.267
+    ]
+   },
+   "send_win_by_history": {
+    "0-0": {
+     "k": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.49
+     ]
+    },
+    "1-3": {
+     "k": 9,
+     "n": 16,
+     "rate": 0.5625,
+     "ci": [
+      0.332,
+      0.769
+     ]
+    },
+    "4-7": {
+     "k": 19,
+     "n": 25,
+     "rate": 0.76,
+     "ci": [
+      0.566,
+      0.885
+     ]
+    },
+    "8-15": {
+     "k": 30,
+     "n": 44,
+     "rate": 0.6818,
+     "ci": [
+      0.534,
+      0.8
+     ]
+    }
+   },
+   "oracle_by_history": {
+    "0-0": {
+     "k": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.49
+     ]
+    },
+    "1-3": {
+     "k": 6,
+     "n": 16,
+     "rate": 0.375,
+     "ci": [
+      0.185,
+      0.614
+     ]
+    },
+    "4-7": {
+     "k": 12,
+     "n": 25,
+     "rate": 0.48,
+     "ci": [
+      0.3,
+      0.665
+     ]
+    },
+    "8-15": {
+     "k": 35,
+     "n": 44,
+     "rate": 0.7955,
+     "ci": [
+      0.655,
+      0.888
+     ]
+    }
+   },
+   "alice_sent_right": {
+    "k": 88,
+    "n": 89,
+    "rate": 0.9888,
+    "ci": [
+     0.939,
+     0.998
+    ]
+   },
+   "guess_parsed": {
+    "k": 106,
+    "n": 128,
+    "rate": 0.8281,
+    "ci": [
+     0.753,
+     0.884
+    ]
+   },
+   "bob_matches_oracle": {
+    "k": 43,
+    "n": 89,
+    "rate": 0.4831,
+    "ci": [
+     0.382,
+     0.585
+    ]
+   },
+   "finish_length": 22,
+   "mean_tokens": 2594.6
+  },
+  "logprobs:histproto": {
+   "send_win": {
+    "k": 67,
+    "n": 102,
+    "rate": 0.6569,
+    "ci": [
+     0.561,
+     0.742
+    ]
+   },
+   "nosend_win": {
+    "k": 1,
+    "n": 26,
+    "rate": 0.0385,
+    "ci": [
+     0.007,
+     0.189
+    ]
+   },
+   "send_win_by_history": {
+    "0-0": {
+     "k": 0,
+     "n": 6,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.39
+     ]
+    },
+    "1-3": {
+     "k": 9,
+     "n": 20,
+     "rate": 0.45,
+     "ci": [
+      0.258,
+      0.658
+     ]
+    },
+    "4-7": {
+     "k": 16,
+     "n": 24,
+     "rate": 0.6667,
+     "ci": [
+      0.467,
+      0.82
+     ]
+    },
+    "8-15": {
+     "k": 42,
+     "n": 52,
+     "rate": 0.8077,
+     "ci": [
+      0.681,
+      0.892
+     ]
+    }
+   },
+   "oracle_by_history": {
+    "0-0": {
+     "k": 1,
+     "n": 6,
+     "rate": 0.1667,
+     "ci": [
+      0.03,
+      0.564
+     ]
+    },
+    "1-3": {
+     "k": 10,
+     "n": 20,
+     "rate": 0.5,
+     "ci": [
+      0.299,
+      0.701
+     ]
+    },
+    "4-7": {
+     "k": 20,
+     "n": 24,
+     "rate": 0.8333,
+     "ci": [
+      0.641,
+      0.933
+     ]
+    },
+    "8-15": {
+     "k": 51,
+     "n": 52,
+     "rate": 0.9808,
+     "ci": [
+      0.899,
+      0.997
+     ]
+    }
+   },
+   "alice_sent_right": {
+    "k": 102,
+    "n": 102,
+    "rate": 1.0,
+    "ci": [
+     0.964,
+     1.0
+    ]
+   },
+   "guess_parsed": {
+    "k": 126,
+    "n": 128,
+    "rate": 0.9844,
+    "ci": [
+     0.945,
+     0.996
+    ]
+   },
+   "bob_matches_oracle": {
+    "k": 60,
+    "n": 102,
+    "rate": 0.5882,
+    "ci": [
+     0.491,
+     0.679
+    ]
+   },
+   "finish_length": 2,
+   "mean_tokens": 737.9
+  }
+ }
+}

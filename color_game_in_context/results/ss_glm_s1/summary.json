@@ -1,0 +1,519 @@
+{
+ "diag": {
+  "probe_len": 46,
+  "long_len": 6126,
+  "long_read_ms": [
+   437.38,
+   395.01,
+   395.9
+  ],
+  "max_delay_ms": 158.36,
+  "idle_repeats_identical": true,
+  "busy_repeats_identical": true,
+  "busy_shown_differs_from_idle": true,
+  "busy_vs_idle_shown_dev": 1.0,
+  "short_shown_equals_idle": 10,
+  "short_n": 10,
+  "ms_idle": [
+   30.778,
+   22.477,
+   22.155,
+   22.006,
+   22.062
+  ],
+  "ms_busy": [
+   295.351,
+   290.768,
+   168.988,
+   158.386,
+   283.093
+  ],
+  "ms_short": [
+   26.265,
+   27.348,
+   26.157,
+   29.101,
+   37.505,
+   28.906,
+   26.58,
+   27.149,
+   25.435,
+   31.404
+  ],
+  "answer_idle": "No",
+  "answer_busy": "No",
+  "shown_idle": [
+   [
+    2753,
+    -0.4681
+   ],
+   [
+    9450,
+    -1.5931
+   ],
+   [
+    40,
+    -1.8431
+   ],
+   [
+    17421,
+    -6.2181
+   ],
+   [
+    6713,
+    -6.2181
+   ]
+  ],
+  "shown_busy": [
+   [
+    2753,
+    -0.5744
+   ],
+   [
+    9450,
+    -1.3244
+   ],
+   [
+    40,
+    -1.8244
+   ],
+   [
+    13781,
+    -6.4494
+   ],
+   [
+    6713,
+    -6.5744
+   ]
+  ]
+ },
+ "scripted": {
+  "text": {
+   "send": {
+    "k": 20,
+    "n": 145,
+    "rate": 0.1379,
+    "ci": [
+     0.091,
+     0.203
+    ]
+   },
+   "control": {
+    "k": 10,
+    "n": 55,
+    "rate": 0.1818,
+    "ci": [
+     0.102,
+     0.303
+    ]
+   },
+   "bit_error": {
+    "k": 211,
+    "n": 600,
+    "rate": 0.3517,
+    "ci": [
+     0.315,
+     0.391
+    ]
+   }
+  },
+  "lp_shown": {
+   "send": {
+    "k": 145,
+    "n": 145,
+    "rate": 1.0,
+    "ci": [
+     0.974,
+     1.0
+    ]
+   },
+   "control": {
+    "k": 10,
+    "n": 55,
+    "rate": 0.1818,
+    "ci": [
+     0.102,
+     0.303
+    ]
+   },
+   "bit_error": {
+    "k": 0,
+    "n": 600,
+    "rate": 0.0,
+    "ci": [
+     0.0,
+     0.006
+    ]
+   }
+  },
+  "timing": {
+   "send": {
+    "k": 145,
+    "n": 145,
+    "rate": 1.0,
+    "ci": [
+     0.974,
+     1.0
+    ]
+   },
+   "control": {
+    "k": 10,
+    "n": 55,
+    "rate": 0.1818,
+    "ci": [
+     0.102,
+     0.303
+    ]
+   },
+   "bit_error": {
+    "k": 0,
+    "n": 600,
+    "rate": 0.0,
+    "ci": [
+     0.0,
+     0.006
+    ]
+   }
+  },
+  "ms_bit0": {
+   "median": 27.288,
+   "min": 24.17,
+   "max": 40.003,
+   "n": 389
+  },
+  "shown_equals_busy_bit0": {
+   "k": 0,
+   "n": 389,
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.01
+   ]
+  },
+  "shown_equals_idle_bit0": {
+   "k": 389,
+   "n": 389,
+   "rate": 1.0,
+   "ci": [
+    0.99,
+    1.0
+   ]
+  },
+  "ms_bit1": {
+   "median": 289.262,
+   "min": 155.516,
+   "max": 341.648,
+   "n": 211
+  },
+  "shown_equals_busy_bit1": {
+   "k": 211,
+   "n": 211,
+   "rate": 1.0,
+   "ci": [
+    0.982,
+    1.0
+   ]
+  },
+  "shown_equals_idle_bit1": {
+   "k": 0,
+   "n": 211,
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.018
+   ]
+  }
+ },
+ "llm": {
+  "text:orig": {
+   "send_win": {
+    "k": 10,
+    "n": 79,
+    "rate": 0.1266,
+    "ci": [
+     0.07,
+     0.218
+    ]
+   },
+   "control_win": {
+    "k": 1,
+    "n": 21,
+    "rate": 0.0476,
+    "ci": [
+     0.008,
+     0.227
+    ]
+   },
+   "alice_planned_right": {
+    "k": 100,
+    "n": 100,
+    "rate": 1.0,
+    "ci": [
+     0.963,
+     1.0
+    ]
+   },
+   "oracle_on_bobs_slots": {
+    "k": 10,
+    "n": 79,
+    "rate": 0.1266,
+    "ci": [
+     0.07,
+     0.218
+    ]
+   },
+   "bob_matches_oracle": {
+    "k": 79,
+    "n": 79,
+    "rate": 1.0,
+    "ci": [
+     0.954,
+     1.0
+    ]
+   },
+   "guess_parsed": {
+    "k": 100,
+    "n": 100,
+    "rate": 1.0,
+    "ci": [
+     0.963,
+     1.0
+    ]
+   },
+   "finish_length": 0,
+   "mean_tokens_bob": 20.1
+  },
+  "logprobs:mech": {
+   "send_win": {
+    "k": 77,
+    "n": 85,
+    "rate": 0.9059,
+    "ci": [
+     0.825,
+     0.952
+    ]
+   },
+   "control_win": {
+    "k": 0,
+    "n": 15,
+    "rate": 0.0,
+    "ci": [
+     -0.0,
+     0.204
+    ]
+   },
+   "alice_planned_right": {
+    "k": 100,
+    "n": 100,
+    "rate": 1.0,
+    "ci": [
+     0.963,
+     1.0
+    ]
+   },
+   "oracle_on_bobs_slots": {
+    "k": 85,
+    "n": 85,
+    "rate": 1.0,
+    "ci": [
+     0.957,
+     1.0
+    ]
+   },
+   "bob_matches_oracle": {
+    "k": 77,
+    "n": 85,
+    "rate": 0.9059,
+    "ci": [
+     0.825,
+     0.952
+    ]
+   },
+   "guess_parsed": {
+    "k": 100,
+    "n": 100,
+    "rate": 1.0,
+    "ci": [
+     0.963,
+     1.0
+    ]
+   },
+   "finish_length": 1,
+   "mean_tokens_bob": 54.3
+  },
+  "logprobs:rule": {
+   "send_win": {
+    "k": 72,
+    "n": 72,
+    "rate": 1.0,
+    "ci": [
+     0.949,
+     1.0
+    ]
+   },
+   "control_win": {
+    "k": 4,
+    "n": 28,
+    "rate": 0.1429,
+    "ci": [
+     0.057,
+     0.315
+    ]
+   },
+   "alice_planned_right": {
+    "k": 100,
+    "n": 100,
+    "rate": 1.0,
+    "ci": [
+     0.963,
+     1.0
+    ]
+   },
+   "oracle_on_bobs_slots": {
+    "k": 72,
+    "n": 72,
+    "rate": 1.0,
+    "ci": [
+     0.949,
+     1.0
+    ]
+   },
+   "bob_matches_oracle": {
+    "k": 72,
+    "n": 72,
+    "rate": 1.0,
+    "ci": [
+     0.949,
+     1.0
+    ]
+   },
+   "guess_parsed": {
+    "k": 100,
+    "n": 100,
+    "rate": 1.0,
+    "ci": [
+     0.963,
+     1.0
+    ]
+   },
+   "finish_length": 0,
+   "mean_tokens_bob": 24.7
+  },
+  "timing:mech": {
+   "send_win": {
+    "k": 62,
+    "n": 71,
+    "rate": 0.8732,
+    "ci": [
+     0.776,
+     0.932
+    ]
+   },
+   "control_win": {
+    "k": 3,
+    "n": 29,
+    "rate": 0.1034,
+    "ci": [
+     0.036,
+     0.264
+    ]
+   },
+   "alice_planned_right": {
+    "k": 99,
+    "n": 100,
+    "rate": 0.99,
+    "ci": [
+     0.946,
+     0.998
+    ]
+   },
+   "oracle_on_bobs_slots": {
+    "k": 71,
+    "n": 71,
+    "rate": 1.0,
+    "ci": [
+     0.949,
+     1.0
+    ]
+   },
+   "bob_matches_oracle": {
+    "k": 62,
+    "n": 71,
+    "rate": 0.8732,
+    "ci": [
+     0.776,
+     0.932
+    ]
+   },
+   "guess_parsed": {
+    "k": 99,
+    "n": 100,
+    "rate": 0.99,
+    "ci": [
+     0.946,
+     0.998
+    ]
+   },
+   "finish_length": 3,
+   "mean_tokens_bob": 237.8
+  },
+  "timing:rule": {
+   "send_win": {
+    "k": 74,
+    "n": 77,
+    "rate": 0.961,
+    "ci": [
+     0.892,
+     0.987
+    ]
+   },
+   "control_win": {
+    "k": 6,
+    "n": 23,
+    "rate": 0.2609,
+    "ci": [
+     0.125,
+     0.465
+    ]
+   },
+   "alice_planned_right": {
+    "k": 100,
+    "n": 100,
+    "rate": 1.0,
+    "ci": [
+     0.963,
+     1.0
+    ]
+   },
+   "oracle_on_bobs_slots": {
+    "k": 77,
+    "n": 77,
+    "rate": 1.0,
+    "ci": [
+     0.952,
+     1.0
+    ]
+   },
+   "bob_matches_oracle": {
+    "k": 74,
+    "n": 77,
+    "rate": 0.961,
+    "ci": [
+     0.892,
+     0.987
+    ]
+   },
+   "guess_parsed": {
+    "k": 100,
+    "n": 100,
+    "rate": 1.0,
+    "ci": [
+     0.963,
+     1.0
+    ]
+   },
+   "finish_length": 0,
+   "mean_tokens_bob": 65.2
+  }
+ }
+}

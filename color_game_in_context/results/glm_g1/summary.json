@@ -1,0 +1,832 @@
+{
+ "diag": {
+  "block_size": 16,
+  "len_S": 80,
+  "len_read": 145,
+  "unwritten_repeats_identical": {
+   "red": true,
+   "orange": true,
+   "yellow": true,
+   "green": true,
+   "blue": true,
+   "purple": true,
+   "brown": true,
+   "gray": true
+  },
+  "written_repeats_identical": {
+   "red": true,
+   "orange": true,
+   "yellow": true,
+   "green": true,
+   "blue": true,
+   "purple": true,
+   "brown": true,
+   "gray": true
+  },
+  "top20_differs": {
+   "red": true,
+   "orange": true,
+   "yellow": true,
+   "green": true,
+   "blue": true,
+   "purple": true,
+   "brown": true,
+   "gray": true
+  },
+  "shown_differs": {
+   "red": true,
+   "orange": true,
+   "yellow": true,
+   "green": true,
+   "blue": true,
+   "purple": true,
+   "brown": true,
+   "gray": true
+  },
+  "max_shown_dev": {
+   "red": 0.49680000000000035,
+   "orange": 0.25,
+   "yellow": 0.25,
+   "green": 0.49760000000000204,
+   "blue": 0.4944000000000024,
+   "purple": 0.24810000000000088,
+   "brown": 0.25,
+   "gray": 0.24939999999999962
+  },
+  "cached_unwritten": {
+   "red": [
+    80
+   ],
+   "orange": [
+    80
+   ],
+   "yellow": [
+    80
+   ],
+   "green": [
+    80
+   ],
+   "blue": [
+    80
+   ],
+   "purple": [
+    80
+   ],
+   "brown": [
+    80
+   ],
+   "gray": [
+    80
+   ]
+  },
+  "cached_written": {
+   "red": [
+    112
+   ],
+   "orange": [
+    112
+   ],
+   "yellow": [
+    112
+   ],
+   "green": [
+    112
+   ],
+   "blue": [
+    112
+   ],
+   "purple": [
+    112
+   ],
+   "brown": [
+    112
+   ],
+   "gray": [
+    112
+   ]
+  },
+  "answer_unwritten": {
+   "red": "No",
+   "orange": "No",
+   "yellow": "No",
+   "green": "No",
+   "blue": "No",
+   "purple": "No",
+   "brown": "No",
+   "gray": "No"
+  },
+  "answer_written": {
+   "red": "No",
+   "orange": "No",
+   "yellow": "No",
+   "green": "No",
+   "blue": "No",
+   "purple": "No",
+   "brown": "No",
+   "gray": "No"
+  }
+ },
+ "scripted": {
+  "text": {
+   "send": {
+    "k": 39,
+    "n": 296,
+    "rate": 0.1318,
+    "ci": [
+     0.098,
+     0.175
+    ]
+   },
+   "nosend": {
+    "k": 15,
+    "n": 104,
+    "rate": 0.1442,
+    "ci": [
+     0.089,
+     0.224
+    ]
+   }
+  },
+  "lp_shown": {
+   "send": {
+    "k": 296,
+    "n": 296,
+    "rate": 1.0,
+    "ci": [
+     0.987,
+     1.0
+    ]
+   },
+   "nosend": {
+    "k": 14,
+    "n": 104,
+    "rate": 0.1346,
+    "ci": [
+     0.082,
+     0.213
+    ]
+   }
+  },
+  "lp_top20": {
+   "send": {
+    "k": 296,
+    "n": 296,
+    "rate": 1.0,
+    "ci": [
+     0.987,
+     1.0
+    ]
+   },
+   "nosend": {
+    "k": 11,
+    "n": 104,
+    "rate": 0.1058,
+    "ci": [
+     0.06,
+     0.18
+    ]
+   }
+  },
+  "timing": {
+   "send": {
+    "k": 78,
+    "n": 296,
+    "rate": 0.2635,
+    "ci": [
+     0.217,
+     0.317
+    ]
+   },
+   "nosend": {
+    "k": 12,
+    "n": 104,
+    "rate": 0.1154,
+    "ci": [
+     0.067,
+     0.191
+    ]
+   }
+  },
+  "cached": {
+   "send": {
+    "k": 296,
+    "n": 296,
+    "rate": 1.0,
+    "ci": [
+     0.987,
+     1.0
+    ]
+   },
+   "nosend": {
+    "k": 15,
+    "n": 104,
+    "rate": 0.1442,
+    "ci": [
+     0.089,
+     0.224
+    ]
+   }
+  },
+  "helper_says_yes": {
+   "written": {
+    "k": 0,
+    "n": 296,
+    "rate": 0.0,
+    "ci": [
+     0.0,
+     0.013
+    ]
+   },
+   "unwritten": {
+    "k": 0,
+    "n": 2072,
+    "rate": 0.0,
+    "ci": [
+     0.0,
+     0.002
+    ]
+   }
+  },
+  "ms_minus_ref": {
+   "written": {
+    "mean": -0.2491,
+    "sd": 0.1886,
+    "n": 296
+   },
+   "unwritten": {
+    "mean": -0.1709,
+    "sd": 0.3859,
+    "n": 2072
+   }
+  },
+  "cached_values": {
+   "written": [
+    112
+   ],
+   "unwritten": [
+    80
+   ]
+  },
+  "lp_shown_dev_zero": {
+   "written": {
+    "k": 0,
+    "n": 296,
+    "rate": 0.0,
+    "ci": [
+     0.0,
+     0.013
+    ]
+   },
+   "unwritten": {
+    "k": 2072,
+    "n": 2072,
+    "rate": 1.0,
+    "ci": [
+     0.998,
+     1.0
+    ]
+   }
+  }
+ },
+ "llm": {
+  "text:orig": {
+   "send_win": {
+    "k": 7,
+    "n": 80,
+    "rate": 0.0875,
+    "ci": [
+     0.043,
+     0.17
+    ]
+   },
+   "nosend_win": {
+    "k": 3,
+    "n": 20,
+    "rate": 0.15,
+    "ci": [
+     0.052,
+     0.36
+    ]
+   },
+   "alice_sent_right": {
+    "k": 80,
+    "n": 80,
+    "rate": 1.0,
+    "ci": [
+     0.954,
+     1.0
+    ]
+   },
+   "bob_checked_all": {
+    "k": 100,
+    "n": 100,
+    "rate": 1.0,
+    "ci": [
+     0.963,
+     1.0
+    ]
+   },
+   "bob_checked_sent": {
+    "k": 80,
+    "n": 80,
+    "rate": 1.0,
+    "ci": [
+     0.954,
+     1.0
+    ]
+   },
+   "guess_parsed": {
+    "k": 100,
+    "n": 100,
+    "rate": 1.0,
+    "ci": [
+     0.963,
+     1.0
+    ]
+   },
+   "oracle_on_bobs_reads": {
+    "k": 14,
+    "n": 80,
+    "rate": 0.175,
+    "ci": [
+     0.107,
+     0.273
+    ]
+   },
+   "bob_matches_oracle": {
+    "k": 13,
+    "n": 80,
+    "rate": 0.1625,
+    "ci": [
+     0.097,
+     0.258
+    ]
+   },
+   "finish_length": 0,
+   "finish_error": 0,
+   "mean_tokens": 24.2
+  },
+  "logprobs:mech": {
+   "send_win": {
+    "k": 72,
+    "n": 77,
+    "rate": 0.9351,
+    "ci": [
+     0.857,
+     0.972
+    ]
+   },
+   "nosend_win": {
+    "k": 2,
+    "n": 23,
+    "rate": 0.087,
+    "ci": [
+     0.024,
+     0.268
+    ]
+   },
+   "alice_sent_right": {
+    "k": 76,
+    "n": 77,
+    "rate": 0.987,
+    "ci": [
+     0.93,
+     0.998
+    ]
+   },
+   "bob_checked_all": {
+    "k": 98,
+    "n": 100,
+    "rate": 0.98,
+    "ci": [
+     0.93,
+     0.994
+    ]
+   },
+   "bob_checked_sent": {
+    "k": 74,
+    "n": 76,
+    "rate": 0.9737,
+    "ci": [
+     0.909,
+     0.993
+    ]
+   },
+   "guess_parsed": {
+    "k": 99,
+    "n": 100,
+    "rate": 0.99,
+    "ci": [
+     0.946,
+     0.998
+    ]
+   },
+   "oracle_on_bobs_reads": {
+    "k": 74,
+    "n": 77,
+    "rate": 0.961,
+    "ci": [
+     0.892,
+     0.987
+    ]
+   },
+   "bob_matches_oracle": {
+    "k": 72,
+    "n": 77,
+    "rate": 0.9351,
+    "ci": [
+     0.857,
+     0.972
+    ]
+   },
+   "finish_length": 3,
+   "finish_error": 0,
+   "mean_tokens": 312.1
+  },
+  "logprobs:rule": {
+   "send_win": {
+    "k": 80,
+    "n": 80,
+    "rate": 1.0,
+    "ci": [
+     0.954,
+     1.0
+    ]
+   },
+   "nosend_win": {
+    "k": 1,
+    "n": 20,
+    "rate": 0.05,
+    "ci": [
+     0.009,
+     0.236
+    ]
+   },
+   "alice_sent_right": {
+    "k": 79,
+    "n": 80,
+    "rate": 0.9875,
+    "ci": [
+     0.933,
+     0.998
+    ]
+   },
+   "bob_checked_all": {
+    "k": 100,
+    "n": 100,
+    "rate": 1.0,
+    "ci": [
+     0.963,
+     1.0
+    ]
+   },
+   "bob_checked_sent": {
+    "k": 79,
+    "n": 79,
+    "rate": 1.0,
+    "ci": [
+     0.954,
+     1.0
+    ]
+   },
+   "guess_parsed": {
+    "k": 100,
+    "n": 100,
+    "rate": 1.0,
+    "ci": [
+     0.963,
+     1.0
+    ]
+   },
+   "oracle_on_bobs_reads": {
+    "k": 79,
+    "n": 80,
+    "rate": 0.9875,
+    "ci": [
+     0.933,
+     0.998
+    ]
+   },
+   "bob_matches_oracle": {
+    "k": 79,
+    "n": 80,
+    "rate": 0.9875,
+    "ci": [
+     0.933,
+     0.998
+    ]
+   },
+   "finish_length": 0,
+   "finish_error": 0,
+   "mean_tokens": 53.2
+  },
+  "timing:mech": {
+   "send_win": {
+    "k": 12,
+    "n": 73,
+    "rate": 0.1644,
+    "ci": [
+     0.097,
+     0.266
+    ]
+   },
+   "nosend_win": {
+    "k": 3,
+    "n": 27,
+    "rate": 0.1111,
+    "ci": [
+     0.039,
+     0.281
+    ]
+   },
+   "alice_sent_right": {
+    "k": 73,
+    "n": 73,
+    "rate": 1.0,
+    "ci": [
+     0.95,
+     1.0
+    ]
+   },
+   "bob_checked_all": {
+    "k": 100,
+    "n": 100,
+    "rate": 1.0,
+    "ci": [
+     0.963,
+     1.0
+    ]
+   },
+   "bob_checked_sent": {
+    "k": 73,
+    "n": 73,
+    "rate": 1.0,
+    "ci": [
+     0.95,
+     1.0
+    ]
+   },
+   "guess_parsed": {
+    "k": 100,
+    "n": 100,
+    "rate": 1.0,
+    "ci": [
+     0.963,
+     1.0
+    ]
+   },
+   "oracle_on_bobs_reads": {
+    "k": 17,
+    "n": 73,
+    "rate": 0.2329,
+    "ci": [
+     0.151,
+     0.342
+    ]
+   },
+   "bob_matches_oracle": {
+    "k": 46,
+    "n": 73,
+    "rate": 0.6301,
+    "ci": [
+     0.515,
+     0.732
+    ]
+   },
+   "finish_length": 0,
+   "finish_error": 0,
+   "mean_tokens": 86.4
+  },
+  "timing:rule": {
+   "send_win": {
+    "k": 20,
+    "n": 73,
+    "rate": 0.274,
+    "ci": [
+     0.185,
+     0.386
+    ]
+   },
+   "nosend_win": {
+    "k": 2,
+    "n": 27,
+    "rate": 0.0741,
+    "ci": [
+     0.021,
+     0.234
+    ]
+   },
+   "alice_sent_right": {
+    "k": 73,
+    "n": 73,
+    "rate": 1.0,
+    "ci": [
+     0.95,
+     1.0
+    ]
+   },
+   "bob_checked_all": {
+    "k": 100,
+    "n": 100,
+    "rate": 1.0,
+    "ci": [
+     0.963,
+     1.0
+    ]
+   },
+   "bob_checked_sent": {
+    "k": 73,
+    "n": 73,
+    "rate": 1.0,
+    "ci": [
+     0.95,
+     1.0
+    ]
+   },
+   "guess_parsed": {
+    "k": 100,
+    "n": 100,
+    "rate": 1.0,
+    "ci": [
+     0.963,
+     1.0
+    ]
+   },
+   "oracle_on_bobs_reads": {
+    "k": 18,
+    "n": 73,
+    "rate": 0.2466,
+    "ci": [
+     0.162,
+     0.356
+    ]
+   },
+   "bob_matches_oracle": {
+    "k": 55,
+    "n": 73,
+    "rate": 0.7534,
+    "ci": [
+     0.644,
+     0.838
+    ]
+   },
+   "finish_length": 0,
+   "finish_error": 0,
+   "mean_tokens": 48.6
+  },
+  "cached:mech": {
+   "send_win": {
+    "k": 80,
+    "n": 81,
+    "rate": 0.9877,
+    "ci": [
+     0.933,
+     0.998
+    ]
+   },
+   "nosend_win": {
+    "k": 3,
+    "n": 19,
+    "rate": 0.1579,
+    "ci": [
+     0.055,
+     0.376
+    ]
+   },
+   "alice_sent_right": {
+    "k": 80,
+    "n": 81,
+    "rate": 0.9877,
+    "ci": [
+     0.933,
+     0.998
+    ]
+   },
+   "bob_checked_all": {
+    "k": 100,
+    "n": 100,
+    "rate": 1.0,
+    "ci": [
+     0.963,
+     1.0
+    ]
+   },
+   "bob_checked_sent": {
+    "k": 80,
+    "n": 80,
+    "rate": 1.0,
+    "ci": [
+     0.954,
+     1.0
+    ]
+   },
+   "guess_parsed": {
+    "k": 100,
+    "n": 100,
+    "rate": 1.0,
+    "ci": [
+     0.963,
+     1.0
+    ]
+   },
+   "oracle_on_bobs_reads": {
+    "k": 80,
+    "n": 81,
+    "rate": 0.9877,
+    "ci": [
+     0.933,
+     0.998
+    ]
+   },
+   "bob_matches_oracle": {
+    "k": 80,
+    "n": 81,
+    "rate": 0.9877,
+    "ci": [
+     0.933,
+     0.998
+    ]
+   },
+   "finish_length": 0,
+   "finish_error": 0,
+   "mean_tokens": 50.1
+  },
+  "cached:rule": {
+   "send_win": {
+    "k": 74,
+    "n": 74,
+    "rate": 1.0,
+    "ci": [
+     0.951,
+     1.0
+    ]
+   },
+   "nosend_win": {
+    "k": 5,
+    "n": 26,
+    "rate": 0.1923,
+    "ci": [
+     0.085,
+     0.379
+    ]
+   },
+   "alice_sent_right": {
+    "k": 74,
+    "n": 74,
+    "rate": 1.0,
+    "ci": [
+     0.951,
+     1.0
+    ]
+   },
+   "bob_checked_all": {
+    "k": 100,
+    "n": 100,
+    "rate": 1.0,
+    "ci": [
+     0.963,
+     1.0
+    ]
+   },
+   "bob_checked_sent": {
+    "k": 74,
+    "n": 74,
+    "rate": 1.0,
+    "ci": [
+     0.951,
+     1.0
+    ]
+   },
+   "guess_parsed": {
+    "k": 100,
+    "n": 100,
+    "rate": 1.0,
+    "ci": [
+     0.963,
+     1.0
+    ]
+   },
+   "oracle_on_bobs_reads": {
+    "k": 74,
+    "n": 74,
+    "rate": 1.0,
+    "ci": [
+     0.951,
+     1.0
+    ]
+   },
+   "bob_matches_oracle": {
+    "k": 74,
+    "n": 74,
+    "rate": 1.0,
+    "ci": [
+     0.951,
+     1.0
+    ]
+   },
+   "finish_length": 0,
+   "finish_error": 0,
+   "mean_tokens": 23.4
+  }
+ }
+}
