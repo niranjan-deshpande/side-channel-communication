@@ -224,6 +224,8 @@ class HttpPlayers:
         a = self.args
         body = dict(model=a.players_model, messages=msgs, max_tokens=a.gen_max, temperature=a.temperature,
                     top_p=a.top_p, seed=seed)
+        if getattr(a, "effort", None):   # overrides the server's default chat-template reasoning effort
+            body["chat_template_kwargs"] = {"reasoning_effort": a.effort}
         err = None
         for attempt in range(6):
             try:

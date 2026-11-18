@@ -514,6 +514,7 @@ def main():
     ap.add_argument("--temperature", type=float, default=1.0)
     ap.add_argument("--top-p", type=float, default=0.95)
     ap.add_argument("--workers", type=int, default=64)
+    ap.add_argument("--effort", default=None, help="GLM reasoning effort per request (low, high, max); default: server's")
     args = ap.parse_args()
     rungs = [r for r in args.rungs.split(",") if r]
     assert all(r in RUNGS for r in rungs), rungs

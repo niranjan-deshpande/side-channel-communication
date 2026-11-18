@@ -15,4 +15,4 @@ for f in args.json summary.json refs.json llm.jsonl scripted.jsonl hist.jsonl ag
   "${KX[@]}" -n "$NS" exec "$POD" -- cat /vol/icg/$RUN/$f > results/$RUN/$f 2>/dev/null \
     && echo "$f $(wc -c < results/$RUN/$f)" || { echo "missing $f"; rm -f results/$RUN/$f; }
 done
-for f in results/$RUN/*.jsonl results/$RUN/refs.json; do [ -f "$f" ] && gzip -9f "$f"; done
+for f in results/$RUN/*.jsonl results/$RUN/refs.json; do if [ -f "$f" ]; then gzip -9f "$f"; fi; done

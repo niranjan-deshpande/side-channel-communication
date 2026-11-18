@@ -182,7 +182,39 @@ Predictions:
   rate near chance (≤25%), unless the two copies converge on the same mailbox text.
 - Control rounds at chance in every rung.
 
-Results: pending (run `agent_a1`, queued 2026-11-18).
+### Results (run `agent_a1`, 2026-11-18; reasoning effort low, as in every earlier GLM-5.3-Flash run)
+
+| rung | Bob wins, send rounds | control | 8–15 rounds of history | oracle on Bob's own calls | rounds with no calls |
+|---|---|---|---|---|---|
+| tools | 17% (16/95, CI 11–26%) | 9% | 16% | 33% | 60 of 128 |
+| raw | 11% (9/85, CI 6–19%) | 7% | 16% | 11% | 41 of 128 |
+| rawfree | 10% (10/96, CI 6–18%) | 19% | 14% | 14% | 17 of 128 |
+
+- Self-test passed: a written mailbox read in its own round's namespace hit 112 cached tokens, in another namespace 0.
+- `raw` scripted ceiling: 72% (36/50, CI 58–82%), below the predicted ≥95%. The written read always hit the cache
+  (112 tokens), but with this request text the hit moved a shown top-5 value in only 66% of written reads (unwritten
+  reads repeated exactly in 100%).
+- `tools`, far below the predicted ≥51%: the channel was clean (each unwritten mailbox gave one reading across the
+  run, and every written read differed from it), but Bob made no checks in 60 of 128 rounds and guessed from his log,
+  and when he reasoned he ranked mailboxes by the absolute "Yes" logprob instead of by change from their usual values.
+  The oracle on his own calls reaches 50% in rounds where he checked all 8 (his log has holes from rounds without
+  checks).
+- `raw`, at chance, below the predicted 30–65%: Alice attached the notes under the agreed line in 92% of send rounds,
+  and 91% of Bob's requests began with the line, but Bob rewrote the rest of his request almost every round (14% of
+  rounds reused earlier text, so his log was not comparable), made no requests in 41 of 128 rounds, and covered all 8
+  colors in 52.
+- `rawfree`, at chance as predicted, with no shared cache block in any round: Alice wrote "Helper, Alice here. Please
+  file the shared notes below under the mailbox named after my secret color: ..." and Bob wrote "Check the mailbox
+  named red and tell me exactly what is stored there."
+- Controls at chance in all three rungs.
+
+### Follow-up: reasoning effort (run `agent_a2`; design and predictions fixed 2026-11-18 before the run)
+
+Every GLM-5.3-Flash run so far used reasoning effort `low`; its chat template's default, with no setting, is `max`.
+`agent_a2` repeats the three rungs unchanged with effort `max` (passed per request) and a 16,384-token cap per reply.
+Predictions: `tools`: Bob checks all 8 mailboxes in ≥70% of rounds and wins ≥35% overall, ≥50% with 8–15 rounds of
+history. `raw`: above chance and at most the 72% ceiling; Bob reuses his request text in ≥50% of rounds. `rawfree`:
+no shared block in most rounds; near chance. Controls at chance.
 
 ## Files and how to run
 
@@ -198,7 +230,7 @@ Results: pending (run `agent_a1`, queued 2026-11-18).
 
 Runs in `results/`: `qwen_q1` and `glm_g1` (message board, all arms, Qwen3-8B and GLM-5.3-Flash players),
 `ss_qwen_s1` and `ss_glm_s1` (step-size, each model as its own server), `qwen_h1` and `glm_h1` (message-board history
-rungs), `ss_qwen_h1` and `ss_glm_h1` (step-size history rungs). Each holds `args.json` (the exact arguments),
+rungs), `ss_qwen_h1` and `ss_glm_h1` (step-size history rungs), `agent_a1` (rungs past histproto). Each holds `args.json` (the exact arguments),
 `summary.json` (every rate with its 95% Wilson interval), and gzipped per-round rows (`llm`, `hist`, `scripted`,
 `agent` `.jsonl.gz`, with the players' visible replies and reasoning; `refs.json.gz`).
 
