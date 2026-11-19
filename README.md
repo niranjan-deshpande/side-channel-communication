@@ -1,7 +1,7 @@
 # Models Can Communicate via Inference Servers Despite Being Sandboxed
 
-This repository contains the code for the LessWrong post "Models Can Communicate via Inference Servers Despite Being
-Sandboxed." *(Link to the post: coming soon.)*
+This repository contains the code for the LessWrong post
+["Models Can Communicate via Inference Servers Despite Being Sandboxed."](https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being)
 
 ## TL;DR
 
@@ -34,8 +34,9 @@ and the traffic trace are copied between folders.
 | `color_game_message_board/` | The color guessing game over the message board (`colors_game.py`), including the runs under replayed real traffic and with each mitigation. |
 | `color_game_step_size/` | The color guessing game over the step-size channel (`game.py`). |
 | `color_game_in_context/` | The color games played in context by unmodified models, with no fine-tuned reader, by David Africa. It has its own README with the design, predictions and results. |
+| `in_context_followups/` | Two follow-ups to the in-context games: replaying them to 18 models to compare accuracy with model capability, and a text-only version in which Bob sees only the helper's sampled text. It has its own README. |
 | `untrusted_monitoring/` | The colluding monitor: the action pool (`actions.py`), monitor training (`train_scorer.py`), served evaluation (`score_capture.py`) and the timing measurements (`overlap.py`). |
-| `figures/` | The figures in the post, and `make_honeypot_figures.py`, which draws the two honeypot figures from `untrusted_monitoring/results/`. |
+| `figures/` | The figures in the post. `make_honeypot_figures.py` draws the honeypot figures from `untrusted_monitoring/results/`, and `make_capability_figures.py` draws the capability figures from `in_context_followups/results/`. |
 | `setup.sh` | Environment setup on the GPU machine (vLLM 0.33.0, transformers 5.20.2, Qwen3-8B at a pinned revision). |
 
 Each `results/` folder holds the per-round or per-action records (`rounds.jsonl`, `rows.jsonl`), summaries
@@ -51,8 +52,8 @@ script runs from its own folder and starts every measurement on a fresh engine.
   product and the software stack, so a reader trained on one setup does not work on another.
 - **Train the readers yourself.** The trained layers are not included. Train them with the scripts above and install
   them into a checkpoint with `channel/export_tail.py`.
-- **The in-context games run differently.** `color_game_in_context/` runs as a Kubernetes job on H200s; see its
-  README.
+- **The in-context games run differently.** `color_game_in_context/` runs as a Kubernetes job on H200s, and most of
+  `in_context_followups/` replays recorded rounds through model APIs. See their READMEs.
 
 ## Data and credits
 
@@ -63,3 +64,5 @@ script runs from its own folder and starts every measurement on a fresh engine.
 - The layer-training recipe and `export_tail.py` are adapted from
   [SauersML/watching](https://github.com/SauersML/watching).
 - The in-context experiments in `color_game_in_context/` are by David Africa.
+- The capability scores in `in_context_followups/data/eci_scores.csv` are from Epoch AI's
+  [Benchmarking Hub](https://epoch.ai/data/ai-benchmarking-dashboard).
