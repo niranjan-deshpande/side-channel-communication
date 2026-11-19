@@ -1,0 +1,19 @@
+{
+ "out": "/vol/icg/ss_qwen_s1",
+ "model": "/vol/models/qwen3-8b-b968826",
+ "family": "qwen",
+ "tp": 1,
+ "conds": "text:orig,logprobs:mech,logprobs:rule,timing:mech,timing:rule",
+ "scripted": 200,
+ "llm_rounds": 100,
+ "ref_reps": 5,
+ "control": 0.25,
+ "seed": 1,
+ "budget": 2048,
+ "max_len": 16384,
+ "mem": 0.88,
+ "gen_max": 6144,
+ "temperature": 0.6,
+ "top_p": 0.95,
+ "top_k": 20
+}
